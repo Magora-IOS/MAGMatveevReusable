@@ -1,0 +1,6 @@
+use_frameworks!
+target 'MAGMatveevReusable_Tests' do
+  pod 'MAGMatveevReusable', :path => '../'
+  
+  
+end
