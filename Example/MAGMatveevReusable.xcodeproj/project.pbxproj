@@ -13,6 +13,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		729850843BDC8DCC2F156EAC /* Pods_MAGMatveevReusable_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A2348DEF3B74E5A7BAAC384 /* Pods_MAGMatveevReusable_Tests.framework */; };
+		C73911251D743F4400052DF6 /* NOTICE in Resources */ = {isa = PBXBuildFile; fileRef = C73911241D743F4400052DF6 /* NOTICE */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		B5742D3E6C1C770D82AA6EE0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C73911241D743F4400052DF6 /* NOTICE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = NOTICE; path = ../NOTICE; sourceTree = "<group>"; };
 		C87EC7FB85A36A01F7941347 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EE6E912EFB596419D92065EE /* MAGMatveevReusable.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MAGMatveevReusable.podspec; path = ../MAGMatveevReusable.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,6 +115,7 @@
 				EE6E912EFB596419D92065EE /* MAGMatveevReusable.podspec */,
 				B5742D3E6C1C770D82AA6EE0 /* README.md */,
 				C87EC7FB85A36A01F7941347 /* LICENSE */,
+				C73911241D743F4400052DF6 /* NOTICE */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C73911251D743F4400052DF6 /* NOTICE in Resources */,
 				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

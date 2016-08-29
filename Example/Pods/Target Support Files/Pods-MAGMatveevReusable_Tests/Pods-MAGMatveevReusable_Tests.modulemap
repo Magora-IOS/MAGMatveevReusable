@@ -1,0 +1,6 @@
+framework module Pods_MAGMatveevReusable_Tests {
+  umbrella header "Pods-MAGMatveevReusable_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
