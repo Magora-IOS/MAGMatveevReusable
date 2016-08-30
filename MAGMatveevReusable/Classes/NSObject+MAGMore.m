@@ -4,11 +4,11 @@
 
 @implementation NSObject(MAGMore)
 
-- (NSString *)rc_className {
+- (NSString *)mag_className {
 	return [NSString stringWithUTF8String:class_getName([self class])];
 }
 
-+ (NSString *)rc_className {
++ (NSString *)mag_className {
 	return [NSString stringWithUTF8String:class_getName(self)];
 }
 

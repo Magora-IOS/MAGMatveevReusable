@@ -121,7 +121,7 @@
 }
 
 + (instancetype)mag_loadFromNib {
-    return [self mag_loadFromNib:[self rc_className]];
+    return [self mag_loadFromNib:[self mag_className]];
 }
 
 + (instancetype)mag_loadFromNib:(NSString *)nibName {
