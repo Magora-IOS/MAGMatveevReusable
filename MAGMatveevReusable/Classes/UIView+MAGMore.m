@@ -120,24 +120,24 @@
     self.x = right - self.width;
 }
 
-//+ (instancetype)mag_loadFromNib {
-//    return [self loadFromNib:[self rc_className]];
-//}
-//
-//+ (instancetype)mag_loadFromNib:(NSString *)nibName {
-//    return [self loadFromNib:nibName withOwner:nil];
-//}
-//
-//+ (instancetype)mag_loadFromNib:(NSString *)nibName withOwner:(id) owner {
-//    NSArray *loadedObjects = [[NSBundle mainBundle] loadNibNamed:nibName owner:owner options:nil];
-//    for (id obj in loadedObjects) {
-//        Class classNamedAsNib = NSClassFromString(nibName);
-//        if ([obj isKindOfClass:classNamedAsNib]) {
-//            return obj;
-//        }
-//    }
-//    return nil;
-//}
++ (instancetype)mag_loadFromNib {
+    return [self mag_loadFromNib:[self rc_className]];
+}
+
++ (instancetype)mag_loadFromNib:(NSString *)nibName {
+    return [self mag_loadFromNib:nibName withOwner:nil];
+}
+
++ (instancetype)mag_loadFromNib:(NSString *)nibName withOwner:(id) owner {
+    NSArray *loadedObjects = [[NSBundle mainBundle] loadNibNamed:nibName owner:owner options:nil];
+    for (id obj in loadedObjects) {
+        Class classNamedAsNib = NSClassFromString(nibName);
+        if ([obj isKindOfClass:classNamedAsNib]) {
+            return obj;
+        }
+    }
+    return nil;
+}
 
 - (CGFloat)mag_fittingHeight {
     CGFloat result;

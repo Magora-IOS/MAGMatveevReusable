@@ -18,9 +18,9 @@
 + (UIViewController *)mag_appTopViewController;
 + (CGFloat)mag_heightForDesireWidth:(CGFloat)desireWidth withAspectRatioWidth:(CGFloat)width toHeight:(CGFloat)height;
 
-//+ (instancetype)mag_loadFromNib;
-//+ (instancetype)mag_loadFromNib:(NSString *)nibName;
-//+ (instancetype)mag_loadFromNib:(NSString *)nibName withOwner:(id)owner;
++ (instancetype)mag_loadFromNib;
++ (instancetype)mag_loadFromNib:(NSString *)nibName;
++ (instancetype)mag_loadFromNib:(NSString *)nibName withOwner:(id)owner;
 
 - (CGFloat)mag_fittingHeight;
 
