@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MAGMatveevReusable'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'Reusable modules for pods of Denis Matveev.'
 
 # This description is used to generate tags and improve search results.
@@ -40,3 +40,21 @@ TODO: Reusable modules for pods of Denis Matveev.
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

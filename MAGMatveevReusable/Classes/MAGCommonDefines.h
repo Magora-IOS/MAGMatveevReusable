@@ -52,8 +52,8 @@ BOOL mag_isDebugBuild();
 
 BOOL mag_isEqualObjects(id obj1, id obj2);
 
-
-
+#define IS_THIS_BUILD_DOWNLOADED_FROM_APPSTORE mag_isThisBuildDownloadedFromAppStore()
+BOOL mag_isThisBuildDownloadedFromAppStore();
 
 @interface MAGCommonDefines : NSObject
 
