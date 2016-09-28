@@ -23,7 +23,7 @@
 #define IMG(name) [UIImage imageNamed:name]
 #define LS(str) NSLocalizedString(str, nil)
 
-#define ESCAPED(str) [str stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]
+#define ESCAPED(str) [str stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLFragmentAllowedCharacterSet]]
 #define RIGHTBOOL(expression) expression ? YES : NO
 
 #define ASSERT(condition) NSAssert(condition,@"CUSTOM ASSERT WARNING")
