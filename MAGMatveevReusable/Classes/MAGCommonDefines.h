@@ -23,6 +23,9 @@
 #define IMG(name) [UIImage imageNamed:name]
 #define LS(str) NSLocalizedString(str, nil)
 
+#define ESCAPED(str) [str stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding]
+#define RIGHTBOOL(expression) expression ? YES : NO
+
 #define ASSERT(condition) NSAssert(condition,@"CUSTOM ASSERT WARNING")
 #define CUSTOM_ERROR(text) [[NSError alloc] initWithDomain:@"CustomDomain" code:5 userInfo:@{ NSLocalizedDescriptionKey : text}]
 #define THROW_EXCEPTION(exceptionName,reasonText) @throw [NSException exceptionWithName:exceptionName reason:reasonText userInfo:nil];
