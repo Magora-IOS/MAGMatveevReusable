@@ -8,6 +8,7 @@
 
 
 #import "UIViewController+MAGMore.h"
+#import "UIView+MAGMore.h"
 
 @implementation UIViewController (MAGMore)
 

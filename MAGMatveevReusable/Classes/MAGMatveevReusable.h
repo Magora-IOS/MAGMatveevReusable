@@ -12,7 +12,7 @@
 #import "MAGCommonDefines.h"
 #import "NSObject+MAGMore.h"
 #import "UIView+MAGMore.h"
-#import "UINavigationBar+More.h"
+#import "UINavigationBar+MAGMore.h"
 #import "UITextView+MAGMore.h"
 #import "UIViewController+MAGMore.h"
 
