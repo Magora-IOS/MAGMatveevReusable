@@ -19,6 +19,13 @@
 		C73911231D7017EA00052DF6 /* NSObject+MAGMore.m in Sources */ = {isa = PBXBuildFile; fileRef = C73911211D7017EA00052DF6 /* NSObject+MAGMore.m */; };
 		C73911661D75A75C00052DF6 /* MAGCommonDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = C73911641D75A75B00052DF6 /* MAGCommonDefines.h */; };
 		C73911671D75A75C00052DF6 /* MAGCommonDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = C73911651D75A75C00052DF6 /* MAGCommonDefines.m */; };
+		C74B0B351DAE654300B2F20D /* UINavigationBar+MAGMore.h in Headers */ = {isa = PBXBuildFile; fileRef = C74B0B2F1DAE654300B2F20D /* UINavigationBar+MAGMore.h */; };
+		C74B0B361DAE654300B2F20D /* UINavigationBar+MAGMore.m in Sources */ = {isa = PBXBuildFile; fileRef = C74B0B301DAE654300B2F20D /* UINavigationBar+MAGMore.m */; };
+		C74B0B371DAE654300B2F20D /* UITextView+MAGMore.h in Headers */ = {isa = PBXBuildFile; fileRef = C74B0B311DAE654300B2F20D /* UITextView+MAGMore.h */; };
+		C74B0B381DAE654300B2F20D /* UITextView+MAGMore.m in Sources */ = {isa = PBXBuildFile; fileRef = C74B0B321DAE654300B2F20D /* UITextView+MAGMore.m */; };
+		C74B0B391DAE654300B2F20D /* UIViewController+MAGMore.h in Headers */ = {isa = PBXBuildFile; fileRef = C74B0B331DAE654300B2F20D /* UIViewController+MAGMore.h */; };
+		C74B0B3A1DAE654300B2F20D /* UIViewController+MAGMore.m in Sources */ = {isa = PBXBuildFile; fileRef = C74B0B341DAE654300B2F20D /* UIViewController+MAGMore.m */; };
+		C74B0B3C1DAE65B600B2F20D /* MAGMatveevReusable.h in Headers */ = {isa = PBXBuildFile; fileRef = C74B0B3B1DAE65B600B2F20D /* MAGMatveevReusable.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +57,13 @@
 		C73911211D7017EA00052DF6 /* NSObject+MAGMore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MAGMore.m"; sourceTree = "<group>"; };
 		C73911641D75A75B00052DF6 /* MAGCommonDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAGCommonDefines.h; sourceTree = "<group>"; };
 		C73911651D75A75C00052DF6 /* MAGCommonDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAGCommonDefines.m; sourceTree = "<group>"; };
+		C74B0B2F1DAE654300B2F20D /* UINavigationBar+MAGMore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+MAGMore.h"; sourceTree = "<group>"; };
+		C74B0B301DAE654300B2F20D /* UINavigationBar+MAGMore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+MAGMore.m"; sourceTree = "<group>"; };
+		C74B0B311DAE654300B2F20D /* UITextView+MAGMore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+MAGMore.h"; sourceTree = "<group>"; };
+		C74B0B321DAE654300B2F20D /* UITextView+MAGMore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+MAGMore.m"; sourceTree = "<group>"; };
+		C74B0B331DAE654300B2F20D /* UIViewController+MAGMore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MAGMore.h"; sourceTree = "<group>"; };
+		C74B0B341DAE654300B2F20D /* UIViewController+MAGMore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MAGMore.m"; sourceTree = "<group>"; };
+		C74B0B3B1DAE65B600B2F20D /* MAGMatveevReusable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAGMatveevReusable.h; sourceTree = "<group>"; };
 		CA50545EC5A4167530C9FE81C9643567 /* MAGMatveevReusable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MAGMatveevReusable.modulemap; sourceTree = "<group>"; };
 		CDA371E80E14F151A64ED33FF1E1C8DA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDB8B9E6D2DFF75284556DE794F1A37C /* MAGMatveevReusable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MAGMatveevReusable-dummy.m"; sourceTree = "<group>"; };
@@ -83,12 +97,19 @@
 		31079DE0A8A2330B2DAF41AA6D79E500 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C74B0B3B1DAE65B600B2F20D /* MAGMatveevReusable.h */,
 				C73911641D75A75B00052DF6 /* MAGCommonDefines.h */,
 				C73911651D75A75C00052DF6 /* MAGCommonDefines.m */,
 				C73911201D7017EA00052DF6 /* NSObject+MAGMore.h */,
 				C73911211D7017EA00052DF6 /* NSObject+MAGMore.m */,
 				C739111C1D700F4D00052DF6 /* UIView+MAGMore.h */,
 				C739111D1D700F4D00052DF6 /* UIView+MAGMore.m */,
+				C74B0B2F1DAE654300B2F20D /* UINavigationBar+MAGMore.h */,
+				C74B0B301DAE654300B2F20D /* UINavigationBar+MAGMore.m */,
+				C74B0B311DAE654300B2F20D /* UITextView+MAGMore.h */,
+				C74B0B321DAE654300B2F20D /* UITextView+MAGMore.m */,
+				C74B0B331DAE654300B2F20D /* UIViewController+MAGMore.h */,
+				C74B0B341DAE654300B2F20D /* UIViewController+MAGMore.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -210,9 +231,13 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C74B0B351DAE654300B2F20D /* UINavigationBar+MAGMore.h in Headers */,
+				C74B0B371DAE654300B2F20D /* UITextView+MAGMore.h in Headers */,
+				C74B0B3C1DAE65B600B2F20D /* MAGMatveevReusable.h in Headers */,
 				C73911661D75A75C00052DF6 /* MAGCommonDefines.h in Headers */,
 				C73911221D7017EA00052DF6 /* NSObject+MAGMore.h in Headers */,
 				C739111E1D700F4D00052DF6 /* UIView+MAGMore.h in Headers */,
+				C74B0B391DAE654300B2F20D /* UIViewController+MAGMore.h in Headers */,
 				B4AE1EF106684E3BCEFB1E7B500BEA6D /* MAGMatveevReusable-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,9 +320,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C74B0B361DAE654300B2F20D /* UINavigationBar+MAGMore.m in Sources */,
 				C739111F1D700F4D00052DF6 /* UIView+MAGMore.m in Sources */,
+				C74B0B3A1DAE654300B2F20D /* UIViewController+MAGMore.m in Sources */,
 				C73911671D75A75C00052DF6 /* MAGCommonDefines.m in Sources */,
 				C73911231D7017EA00052DF6 /* NSObject+MAGMore.m in Sources */,
+				C74B0B381DAE654300B2F20D /* UITextView+MAGMore.m in Sources */,
 				0D1C57DCBDD89CDE70C26AD0E67A7713 /* MAGMatveevReusable-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
