@@ -76,4 +76,7 @@ BOOL mag_isThisBuildDownloadedFromAppStore();
 + (BOOL)isPhone6;
 + (BOOL)isPhone6Plus;
 
++ (CGRect)mainScreenBoundsPortrait;
++ (CGRect)mainScreenBoundsLandscape;
+
 @end
