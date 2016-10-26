@@ -13,19 +13,19 @@
 		830E36F7B2E2A5B3606AF39865049D76 /* Pods-MAGMatveevReusable_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0780D6FD624322B4AD9394CD903EAF9 /* Pods-MAGMatveevReusable_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84BF936CB192906F021A1B6A2C692E56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		B4AE1EF106684E3BCEFB1E7B500BEA6D /* MAGMatveevReusable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6770B685771CD39360AB0CD2E3A2A6C2 /* MAGMatveevReusable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C739111E1D700F4D00052DF6 /* UIView+MAGMore.h in Headers */ = {isa = PBXBuildFile; fileRef = C739111C1D700F4D00052DF6 /* UIView+MAGMore.h */; };
+		C739111E1D700F4D00052DF6 /* UIView+MAGMore.h in Headers */ = {isa = PBXBuildFile; fileRef = C739111C1D700F4D00052DF6 /* UIView+MAGMore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C739111F1D700F4D00052DF6 /* UIView+MAGMore.m in Sources */ = {isa = PBXBuildFile; fileRef = C739111D1D700F4D00052DF6 /* UIView+MAGMore.m */; };
-		C73911221D7017EA00052DF6 /* NSObject+MAGMore.h in Headers */ = {isa = PBXBuildFile; fileRef = C73911201D7017EA00052DF6 /* NSObject+MAGMore.h */; };
+		C73911221D7017EA00052DF6 /* NSObject+MAGMore.h in Headers */ = {isa = PBXBuildFile; fileRef = C73911201D7017EA00052DF6 /* NSObject+MAGMore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C73911231D7017EA00052DF6 /* NSObject+MAGMore.m in Sources */ = {isa = PBXBuildFile; fileRef = C73911211D7017EA00052DF6 /* NSObject+MAGMore.m */; };
-		C73911661D75A75C00052DF6 /* MAGCommonDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = C73911641D75A75B00052DF6 /* MAGCommonDefines.h */; };
+		C73911661D75A75C00052DF6 /* MAGCommonDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = C73911641D75A75B00052DF6 /* MAGCommonDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C73911671D75A75C00052DF6 /* MAGCommonDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = C73911651D75A75C00052DF6 /* MAGCommonDefines.m */; };
-		C74B0B351DAE654300B2F20D /* UINavigationBar+MAGMore.h in Headers */ = {isa = PBXBuildFile; fileRef = C74B0B2F1DAE654300B2F20D /* UINavigationBar+MAGMore.h */; };
+		C74B0B351DAE654300B2F20D /* UINavigationBar+MAGMore.h in Headers */ = {isa = PBXBuildFile; fileRef = C74B0B2F1DAE654300B2F20D /* UINavigationBar+MAGMore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C74B0B361DAE654300B2F20D /* UINavigationBar+MAGMore.m in Sources */ = {isa = PBXBuildFile; fileRef = C74B0B301DAE654300B2F20D /* UINavigationBar+MAGMore.m */; };
-		C74B0B371DAE654300B2F20D /* UITextView+MAGMore.h in Headers */ = {isa = PBXBuildFile; fileRef = C74B0B311DAE654300B2F20D /* UITextView+MAGMore.h */; };
+		C74B0B371DAE654300B2F20D /* UITextView+MAGMore.h in Headers */ = {isa = PBXBuildFile; fileRef = C74B0B311DAE654300B2F20D /* UITextView+MAGMore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C74B0B381DAE654300B2F20D /* UITextView+MAGMore.m in Sources */ = {isa = PBXBuildFile; fileRef = C74B0B321DAE654300B2F20D /* UITextView+MAGMore.m */; };
-		C74B0B391DAE654300B2F20D /* UIViewController+MAGMore.h in Headers */ = {isa = PBXBuildFile; fileRef = C74B0B331DAE654300B2F20D /* UIViewController+MAGMore.h */; };
+		C74B0B391DAE654300B2F20D /* UIViewController+MAGMore.h in Headers */ = {isa = PBXBuildFile; fileRef = C74B0B331DAE654300B2F20D /* UIViewController+MAGMore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C74B0B3A1DAE654300B2F20D /* UIViewController+MAGMore.m in Sources */ = {isa = PBXBuildFile; fileRef = C74B0B341DAE654300B2F20D /* UIViewController+MAGMore.m */; };
-		C74B0B3C1DAE65B600B2F20D /* MAGMatveevReusable.h in Headers */ = {isa = PBXBuildFile; fileRef = C74B0B3B1DAE65B600B2F20D /* MAGMatveevReusable.h */; };
+		C74B0B3C1DAE65B600B2F20D /* MAGMatveevReusable.h in Headers */ = {isa = PBXBuildFile; fileRef = C74B0B3B1DAE65B600B2F20D /* MAGMatveevReusable.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
