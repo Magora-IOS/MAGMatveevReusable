@@ -38,9 +38,17 @@
 #define IOS_VERSION_SECOND_NUMBER ([[UIDevice currentDevice].systemVersion componentsSeparatedByString:@"."].count > 1 ? [[[[UIDevice currentDevice].systemVersion componentsSeparatedByString:@"."] objectAtIndex:1] integerValue] : 0)
 #define IOS_VERSION_THIRD_NUMBER ([[UIDevice currentDevice].systemVersion componentsSeparatedByString:@"."].count > 2 ? [[[[UIDevice currentDevice].systemVersion componentsSeparatedByString:@"."] objectAtIndex:2] integerValue] : 0)
 
-typedef void(^MAGItemBlock)(id item);
+typedef void(^MAGBoolBlock)(BOOL boolValue);
+typedef void(^MAGIntegerBlock)(NSInteger value);
 typedef void(^MAGIndexBlock)(NSInteger index);
+typedef void(^MAGDoubleBlock)(CGFloat value);
+
+typedef void(^MAGNumberBlock)(NSNumber *number);
+typedef void(^MAGPointBlock)(CGPoint point);
+typedef void(^MAGFrameBlock)(CGRect frame);
 typedef void(^MAGIndexPathBlock)(NSIndexPath *indexPath);
+
+typedef void(^MAGItemBlock)(id item);
 typedef void(^MAGCellBlock)(UITableViewCell *cell);
 typedef void(^MAGHeaderCellBlock)(UITableViewCell *cell, NSString *sortProperty, BOOL ascending);
 
