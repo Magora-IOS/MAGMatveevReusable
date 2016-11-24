@@ -1,9 +1,9 @@
 {
   "name": "MAGMatveevReusable",
-  "version": "0.1.0",
-  "summary": "A short description of MAGMatveevReusable.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/MAGMatveevReusable",
+  "version": "0.2.2",
+  "summary": "Reusable modules for pods of Denis Matveev.",
+  "description": "TODO: Reusable modules for pods of Denis Matveev.",
+  "homepage": "https://github.com/Magora-IOS/MAGMatveevReusable",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "Denis Matveev": "matveev@magora-systems.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/MAGMatveevReusable.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/Magora-IOS/MAGMatveevReusable.git",
+    "tag": "0.2.2"
   },
   "platforms": {
     "ios": "8.0"

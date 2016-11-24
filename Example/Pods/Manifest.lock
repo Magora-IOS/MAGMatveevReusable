@@ -1,16 +1,16 @@
 PODS:
-  - MAGMatveevReusable (0.1.0)
+  - MAGMatveevReusable (0.2.2)
 
 DEPENDENCIES:
   - MAGMatveevReusable (from `../`)
 
 EXTERNAL SOURCES:
   MAGMatveevReusable:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  MAGMatveevReusable: 50d3a071634a7501cd4f287dd4fdc4802aac3aac
+  MAGMatveevReusable: ae3e34c512b535bd5411ddf16a3c2096d6746c33
 
 PODFILE CHECKSUM: d4f0876d272d8e58935b837a30dd71dd2680db41
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.1.1

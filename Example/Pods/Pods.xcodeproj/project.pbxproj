@@ -7,119 +7,131 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D1C57DCBDD89CDE70C26AD0E67A7713 /* MAGMatveevReusable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB8B9E6D2DFF75284556DE794F1A37C /* MAGMatveevReusable-dummy.m */; };
-		1B5FB96A03E1E3447CFC9B308BEDDA76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		3D4696DC3589C9F369F4CEB8C4B63C83 /* Pods-MAGMatveevReusable_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F24377CBDB2FD92E1851EAFDA51CEB21 /* Pods-MAGMatveevReusable_Tests-dummy.m */; };
-		830E36F7B2E2A5B3606AF39865049D76 /* Pods-MAGMatveevReusable_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0780D6FD624322B4AD9394CD903EAF9 /* Pods-MAGMatveevReusable_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84BF936CB192906F021A1B6A2C692E56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		B4AE1EF106684E3BCEFB1E7B500BEA6D /* MAGMatveevReusable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6770B685771CD39360AB0CD2E3A2A6C2 /* MAGMatveevReusable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C739111E1D700F4D00052DF6 /* UIView+MAGMore.h in Headers */ = {isa = PBXBuildFile; fileRef = C739111C1D700F4D00052DF6 /* UIView+MAGMore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C739111F1D700F4D00052DF6 /* UIView+MAGMore.m in Sources */ = {isa = PBXBuildFile; fileRef = C739111D1D700F4D00052DF6 /* UIView+MAGMore.m */; };
-		C73911221D7017EA00052DF6 /* NSObject+MAGMore.h in Headers */ = {isa = PBXBuildFile; fileRef = C73911201D7017EA00052DF6 /* NSObject+MAGMore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C73911231D7017EA00052DF6 /* NSObject+MAGMore.m in Sources */ = {isa = PBXBuildFile; fileRef = C73911211D7017EA00052DF6 /* NSObject+MAGMore.m */; };
-		C73911661D75A75C00052DF6 /* MAGCommonDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = C73911641D75A75B00052DF6 /* MAGCommonDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C73911671D75A75C00052DF6 /* MAGCommonDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = C73911651D75A75C00052DF6 /* MAGCommonDefines.m */; };
-		C74B0B351DAE654300B2F20D /* UINavigationBar+MAGMore.h in Headers */ = {isa = PBXBuildFile; fileRef = C74B0B2F1DAE654300B2F20D /* UINavigationBar+MAGMore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C74B0B361DAE654300B2F20D /* UINavigationBar+MAGMore.m in Sources */ = {isa = PBXBuildFile; fileRef = C74B0B301DAE654300B2F20D /* UINavigationBar+MAGMore.m */; };
-		C74B0B371DAE654300B2F20D /* UITextView+MAGMore.h in Headers */ = {isa = PBXBuildFile; fileRef = C74B0B311DAE654300B2F20D /* UITextView+MAGMore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C74B0B381DAE654300B2F20D /* UITextView+MAGMore.m in Sources */ = {isa = PBXBuildFile; fileRef = C74B0B321DAE654300B2F20D /* UITextView+MAGMore.m */; };
-		C74B0B391DAE654300B2F20D /* UIViewController+MAGMore.h in Headers */ = {isa = PBXBuildFile; fileRef = C74B0B331DAE654300B2F20D /* UIViewController+MAGMore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C74B0B3A1DAE654300B2F20D /* UIViewController+MAGMore.m in Sources */ = {isa = PBXBuildFile; fileRef = C74B0B341DAE654300B2F20D /* UIViewController+MAGMore.m */; };
-		C74B0B3C1DAE65B600B2F20D /* MAGMatveevReusable.h in Headers */ = {isa = PBXBuildFile; fileRef = C74B0B3B1DAE65B600B2F20D /* MAGMatveevReusable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B5EBEEF17468D2FE0F2137CF00920C3 /* MAGMatveevReusable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB8B9E6D2DFF75284556DE794F1A37C /* MAGMatveevReusable-dummy.m */; };
+		25380DA0A2D5E0B1EF3F4E3E393FBCB0 /* MAGMatveevReusable.h in Headers */ = {isa = PBXBuildFile; fileRef = 5443A57C96A9A8C6CFB326AAB279FDDA /* MAGMatveevReusable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CFAFAF659AE9B09B2E5E77CA755ABBE /* UIViewController+MAGMore.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E190639B108FEA688546C6BB4BF8D88 /* UIViewController+MAGMore.m */; };
+		3EB0D3D1B39D34AD12D931449FAD3A76 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		65DA34E22075B35810F955CD61280C96 /* MAGCommonDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = ACEF6A6BF60734C1572669D90A7044AA /* MAGCommonDefines.m */; };
+		94AAAD90060F50B071784FFB25A7442F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		9684EA9CD7249C4C65D73C839CF54AA2 /* MAGCommonDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 1812B716B08D2A4C6B4A4444C6EAC0FF /* MAGCommonDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2E4C6CDDE4150B1DC73F7E6DCAC7CCF /* UIView+MAGMore.m in Sources */ = {isa = PBXBuildFile; fileRef = 237848A89D9BD6AB12F65A0076CCA7CB /* UIView+MAGMore.m */; };
+		A3AE33A52BD248EE56F9A07B3B50A5D2 /* NSObject+MAGMore.m in Sources */ = {isa = PBXBuildFile; fileRef = E96F85C8E0F2CCDBD4C9FFD30CDCA3DF /* NSObject+MAGMore.m */; };
+		AB8DEEEAC2EA5F64BEC3AF91554E5777 /* UIView+MAGMore.h in Headers */ = {isa = PBXBuildFile; fileRef = 501DD61EF95843D63B674AF88EF90FFF /* UIView+MAGMore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADFEBB1870031BFAF93F680332C8800C /* UITextView+MAGMore.m in Sources */ = {isa = PBXBuildFile; fileRef = 01DD5711E8FDD99A0F1E5012D183D32B /* UITextView+MAGMore.m */; };
+		B83E3BCEA77F0FA1F26116EA14FD2513 /* UINavigationBar+MAGMore.h in Headers */ = {isa = PBXBuildFile; fileRef = 748AE2D0B238D11F4F03FDE071580F35 /* UINavigationBar+MAGMore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEF43D4526B8F35AE4ADD96CC2456FF0 /* NSObject+MAGMore.h in Headers */ = {isa = PBXBuildFile; fileRef = 67828D5A03DF84660B957196DB61A90A /* NSObject+MAGMore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6FA9566F96EBEC268F332AA52E59294 /* Pods-MAGMatveevReusable_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F24377CBDB2FD92E1851EAFDA51CEB21 /* Pods-MAGMatveevReusable_Tests-dummy.m */; };
+		C7CA6B6F1DE6CBC00030C422 /* Frame.h in Headers */ = {isa = PBXBuildFile; fileRef = C7CA6B6D1DE6CBC00030C422 /* Frame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7CA6B701DE6CBC00030C422 /* Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CA6B6E1DE6CBC00030C422 /* Frame.m */; };
+		C7CA6B731DE6CC470030C422 /* UIView+MAGAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = C7CA6B711DE6CC470030C422 /* UIView+MAGAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7CA6B741DE6CC470030C422 /* UIView+MAGAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CA6B721DE6CC470030C422 /* UIView+MAGAnimation.m */; };
+		C7F38FF95AF1F4F995548F03AE97018E /* UINavigationBar+MAGMore.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F130A79E95F4F4B7AFF6CF582A3B43 /* UINavigationBar+MAGMore.m */; };
+		CF4F52163F500F40962302E3484296DC /* UIViewController+MAGMore.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C80B9330BC4D24656EB984CA904E528 /* UIViewController+MAGMore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D52A76C762B5AE82B6164D7E20FF9E08 /* UITextView+MAGMore.h in Headers */ = {isa = PBXBuildFile; fileRef = EB12B4E1AA19C61DDF4C5F0D02C587A6 /* UITextView+MAGMore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFFD520F56A235DCAA5E96DD0D854800 /* MAGMatveevReusable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6770B685771CD39360AB0CD2E3A2A6C2 /* MAGMatveevReusable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E7A311506352FD3BAC67A8AE73DDB708 /* Pods-MAGMatveevReusable_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0780D6FD624322B4AD9394CD903EAF9 /* Pods-MAGMatveevReusable_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D5FB01413B5C113CC324DF1606154B8F /* PBXContainerItemProxy */ = {
+		161389E116C480544A1E9DD3056D9AF2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 337DDFE4785DE8585D2D13BBA8F4C1CA;
+			remoteGlobalIDString = ACA69F58EC67D361F8132A90787F171F;
 			remoteInfo = MAGMatveevReusable;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01DD5711E8FDD99A0F1E5012D183D32B /* UITextView+MAGMore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+MAGMore.m"; sourceTree = "<group>"; };
+		0C80B9330BC4D24656EB984CA904E528 /* UIViewController+MAGMore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MAGMore.h"; sourceTree = "<group>"; };
 		17E982F68097447E503DFE5A39CCF8A6 /* MAGMatveevReusable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MAGMatveevReusable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17F130A79E95F4F4B7AFF6CF582A3B43 /* UINavigationBar+MAGMore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+MAGMore.m"; sourceTree = "<group>"; };
+		1812B716B08D2A4C6B4A4444C6EAC0FF /* MAGCommonDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MAGCommonDefines.h; sourceTree = "<group>"; };
+		237848A89D9BD6AB12F65A0076CCA7CB /* UIView+MAGMore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+MAGMore.m"; sourceTree = "<group>"; };
+		2E190639B108FEA688546C6BB4BF8D88 /* UIViewController+MAGMore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MAGMore.m"; sourceTree = "<group>"; };
 		3807B8EAD4336CCB7AD5BBE1193D6A35 /* MAGMatveevReusable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MAGMatveevReusable.xcconfig; sourceTree = "<group>"; };
 		4041AF5C70633393784413BA7CD625C8 /* MAGMatveevReusable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MAGMatveevReusable-prefix.pch"; sourceTree = "<group>"; };
+		501DD61EF95843D63B674AF88EF90FFF /* UIView+MAGMore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+MAGMore.h"; sourceTree = "<group>"; };
+		5443A57C96A9A8C6CFB326AAB279FDDA /* MAGMatveevReusable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MAGMatveevReusable.h; sourceTree = "<group>"; };
 		5E4733034813C05D66CB71A979011794 /* Pods-MAGMatveevReusable_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MAGMatveevReusable_Tests-resources.sh"; sourceTree = "<group>"; };
 		6770B685771CD39360AB0CD2E3A2A6C2 /* MAGMatveevReusable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MAGMatveevReusable-umbrella.h"; sourceTree = "<group>"; };
+		67828D5A03DF84660B957196DB61A90A /* NSObject+MAGMore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+MAGMore.h"; sourceTree = "<group>"; };
 		6840837A17F3DBD60F3EDDC6DD52A768 /* Pods-MAGMatveevReusable_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MAGMatveevReusable_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		6B08319F61B11B379E483BEF894D2D09 /* Pods_MAGMatveevReusable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MAGMatveevReusable_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D51E33C1D455815DC6536C2AA1B5958 /* Pods-MAGMatveevReusable_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MAGMatveevReusable_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		748AE2D0B238D11F4F03FDE071580F35 /* UINavigationBar+MAGMore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+MAGMore.h"; sourceTree = "<group>"; };
 		7CF104538CBFC5870B6E3A808C92B0BA /* Pods-MAGMatveevReusable_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MAGMatveevReusable_Tests.modulemap"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ACEF6A6BF60734C1572669D90A7044AA /* MAGCommonDefines.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MAGCommonDefines.m; sourceTree = "<group>"; };
 		C0780D6FD624322B4AD9394CD903EAF9 /* Pods-MAGMatveevReusable_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MAGMatveevReusable_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C37B4E664123F8E7F79794A0ECC63BF7 /* Pods-MAGMatveevReusable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MAGMatveevReusable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C739111C1D700F4D00052DF6 /* UIView+MAGMore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MAGMore.h"; sourceTree = "<group>"; };
-		C739111D1D700F4D00052DF6 /* UIView+MAGMore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MAGMore.m"; sourceTree = "<group>"; };
-		C73911201D7017EA00052DF6 /* NSObject+MAGMore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MAGMore.h"; sourceTree = "<group>"; };
-		C73911211D7017EA00052DF6 /* NSObject+MAGMore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MAGMore.m"; sourceTree = "<group>"; };
-		C73911641D75A75B00052DF6 /* MAGCommonDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAGCommonDefines.h; sourceTree = "<group>"; };
-		C73911651D75A75C00052DF6 /* MAGCommonDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAGCommonDefines.m; sourceTree = "<group>"; };
-		C74B0B2F1DAE654300B2F20D /* UINavigationBar+MAGMore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+MAGMore.h"; sourceTree = "<group>"; };
-		C74B0B301DAE654300B2F20D /* UINavigationBar+MAGMore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+MAGMore.m"; sourceTree = "<group>"; };
-		C74B0B311DAE654300B2F20D /* UITextView+MAGMore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+MAGMore.h"; sourceTree = "<group>"; };
-		C74B0B321DAE654300B2F20D /* UITextView+MAGMore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+MAGMore.m"; sourceTree = "<group>"; };
-		C74B0B331DAE654300B2F20D /* UIViewController+MAGMore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MAGMore.h"; sourceTree = "<group>"; };
-		C74B0B341DAE654300B2F20D /* UIViewController+MAGMore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MAGMore.m"; sourceTree = "<group>"; };
-		C74B0B3B1DAE65B600B2F20D /* MAGMatveevReusable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAGMatveevReusable.h; sourceTree = "<group>"; };
+		C7CA6B6D1DE6CBC00030C422 /* Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Frame.h; sourceTree = "<group>"; };
+		C7CA6B6E1DE6CBC00030C422 /* Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Frame.m; sourceTree = "<group>"; };
+		C7CA6B711DE6CC470030C422 /* UIView+MAGAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MAGAnimation.h"; sourceTree = "<group>"; };
+		C7CA6B721DE6CC470030C422 /* UIView+MAGAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MAGAnimation.m"; sourceTree = "<group>"; };
 		CA50545EC5A4167530C9FE81C9643567 /* MAGMatveevReusable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MAGMatveevReusable.modulemap; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CDA371E80E14F151A64ED33FF1E1C8DA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDB8B9E6D2DFF75284556DE794F1A37C /* MAGMatveevReusable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MAGMatveevReusable-dummy.m"; sourceTree = "<group>"; };
-		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		E4BC22FF442BDC0A958738D11DCC5C2A /* Pods-MAGMatveevReusable_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MAGMatveevReusable_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E96F85C8E0F2CCDBD4C9FFD30CDCA3DF /* NSObject+MAGMore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MAGMore.m"; sourceTree = "<group>"; };
+		EB12B4E1AA19C61DDF4C5F0D02C587A6 /* UITextView+MAGMore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+MAGMore.h"; sourceTree = "<group>"; };
 		ED4551279446B5E21BD91861722FCA2E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F24377CBDB2FD92E1851EAFDA51CEB21 /* Pods-MAGMatveevReusable_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MAGMatveevReusable_Tests-dummy.m"; sourceTree = "<group>"; };
 		F34C74D6A9905D2CB40ABFFC1AA0F85E /* Pods-MAGMatveevReusable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MAGMatveevReusable_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		32B9E40F52E0B1FD43BA601BE82476EE /* Frameworks */ = {
+		219521F25002E988FF8C89A9EDF333CA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84BF936CB192906F021A1B6A2C692E56 /* Foundation.framework in Frameworks */,
+				3EB0D3D1B39D34AD12D931449FAD3A76 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		79E106A13877C05D034E645897C0CB1E /* Frameworks */ = {
+		7691B80DEC861C083905FE654CBC51FE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B5FB96A03E1E3447CFC9B308BEDDA76 /* Foundation.framework in Frameworks */,
+				94AAAD90060F50B071784FFB25A7442F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		31079DE0A8A2330B2DAF41AA6D79E500 /* Classes */ = {
+		496C38E5AABC84C8E7DBE31CBE9425E7 /* MAGMatveevReusable */ = {
 			isa = PBXGroup;
 			children = (
-				C74B0B3B1DAE65B600B2F20D /* MAGMatveevReusable.h */,
-				C73911641D75A75B00052DF6 /* MAGCommonDefines.h */,
-				C73911651D75A75C00052DF6 /* MAGCommonDefines.m */,
-				C73911201D7017EA00052DF6 /* NSObject+MAGMore.h */,
-				C73911211D7017EA00052DF6 /* NSObject+MAGMore.m */,
-				C739111C1D700F4D00052DF6 /* UIView+MAGMore.h */,
-				C739111D1D700F4D00052DF6 /* UIView+MAGMore.m */,
-				C74B0B2F1DAE654300B2F20D /* UINavigationBar+MAGMore.h */,
-				C74B0B301DAE654300B2F20D /* UINavigationBar+MAGMore.m */,
-				C74B0B311DAE654300B2F20D /* UITextView+MAGMore.h */,
-				C74B0B321DAE654300B2F20D /* UITextView+MAGMore.m */,
-				C74B0B331DAE654300B2F20D /* UIViewController+MAGMore.h */,
-				C74B0B341DAE654300B2F20D /* UIViewController+MAGMore.m */,
+				53444283B68D03CA65C1799EFDC49866 /* Classes */,
 			);
-			path = Classes;
+			path = MAGMatveevReusable;
 			sourceTree = "<group>";
 		};
-		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+		53444283B68D03CA65C1799EFDC49866 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+				5443A57C96A9A8C6CFB326AAB279FDDA /* MAGMatveevReusable.h */,
+				1812B716B08D2A4C6B4A4444C6EAC0FF /* MAGCommonDefines.h */,
+				ACEF6A6BF60734C1572669D90A7044AA /* MAGCommonDefines.m */,
+				67828D5A03DF84660B957196DB61A90A /* NSObject+MAGMore.h */,
+				E96F85C8E0F2CCDBD4C9FFD30CDCA3DF /* NSObject+MAGMore.m */,
+				748AE2D0B238D11F4F03FDE071580F35 /* UINavigationBar+MAGMore.h */,
+				17F130A79E95F4F4B7AFF6CF582A3B43 /* UINavigationBar+MAGMore.m */,
+				EB12B4E1AA19C61DDF4C5F0D02C587A6 /* UITextView+MAGMore.h */,
+				01DD5711E8FDD99A0F1E5012D183D32B /* UITextView+MAGMore.m */,
+				501DD61EF95843D63B674AF88EF90FFF /* UIView+MAGMore.h */,
+				237848A89D9BD6AB12F65A0076CCA7CB /* UIView+MAGMore.m */,
+				C7CA6B711DE6CC470030C422 /* UIView+MAGAnimation.h */,
+				C7CA6B721DE6CC470030C422 /* UIView+MAGAnimation.m */,
+				C7CA6B6D1DE6CBC00030C422 /* Frame.h */,
+				C7CA6B6E1DE6CBC00030C422 /* Frame.m */,
+				0C80B9330BC4D24656EB984CA904E528 /* UIViewController+MAGMore.h */,
+				2E190639B108FEA688546C6BB4BF8D88 /* UIViewController+MAGMore.m */,
 			);
-			name = iOS;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		5733D837E696837343AE85FE42FBA322 /* Pods-MAGMatveevReusable_Tests */ = {
@@ -140,22 +152,22 @@
 			path = "Target Support Files/Pods-MAGMatveevReusable_Tests";
 			sourceTree = "<group>";
 		};
-		5EC10B2DB46CAE14F10E7259950110FF /* MAGMatveevReusable */ = {
-			isa = PBXGroup;
-			children = (
-				31079DE0A8A2330B2DAF41AA6D79E500 /* Classes */,
-			);
-			path = MAGMatveevReusable;
-			sourceTree = "<group>";
-		};
 		6960896848D1F099658FC7D4A406F5EC /* MAGMatveevReusable */ = {
 			isa = PBXGroup;
 			children = (
-				5EC10B2DB46CAE14F10E7259950110FF /* MAGMatveevReusable */,
+				496C38E5AABC84C8E7DBE31CBE9425E7 /* MAGMatveevReusable */,
 				F15D6AC62422B2903F81AE610FD240BA /* Support Files */,
 			);
 			name = MAGMatveevReusable;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -180,7 +192,7 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -219,39 +231,59 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		E9B96361652CF52AD5A09DAE27EBC3BE /* Headers */ = {
+		5E9FEA655E601BCE3EF1783421075B3F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				830E36F7B2E2A5B3606AF39865049D76 /* Pods-MAGMatveevReusable_Tests-umbrella.h in Headers */,
+				E7A311506352FD3BAC67A8AE73DDB708 /* Pods-MAGMatveevReusable_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EF2F9E125BCD2CE3DFA4AA07B390F428 /* Headers */ = {
+		CA55547E07F0945B4C5FEE63A5BA084A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C74B0B351DAE654300B2F20D /* UINavigationBar+MAGMore.h in Headers */,
-				C74B0B371DAE654300B2F20D /* UITextView+MAGMore.h in Headers */,
-				C74B0B3C1DAE65B600B2F20D /* MAGMatveevReusable.h in Headers */,
-				C73911661D75A75C00052DF6 /* MAGCommonDefines.h in Headers */,
-				C73911221D7017EA00052DF6 /* NSObject+MAGMore.h in Headers */,
-				C739111E1D700F4D00052DF6 /* UIView+MAGMore.h in Headers */,
-				C74B0B391DAE654300B2F20D /* UIViewController+MAGMore.h in Headers */,
-				B4AE1EF106684E3BCEFB1E7B500BEA6D /* MAGMatveevReusable-umbrella.h in Headers */,
+				9684EA9CD7249C4C65D73C839CF54AA2 /* MAGCommonDefines.h in Headers */,
+				DFFD520F56A235DCAA5E96DD0D854800 /* MAGMatveevReusable-umbrella.h in Headers */,
+				C7CA6B731DE6CC470030C422 /* UIView+MAGAnimation.h in Headers */,
+				25380DA0A2D5E0B1EF3F4E3E393FBCB0 /* MAGMatveevReusable.h in Headers */,
+				C7CA6B6F1DE6CBC00030C422 /* Frame.h in Headers */,
+				BEF43D4526B8F35AE4ADD96CC2456FF0 /* NSObject+MAGMore.h in Headers */,
+				B83E3BCEA77F0FA1F26116EA14FD2513 /* UINavigationBar+MAGMore.h in Headers */,
+				D52A76C762B5AE82B6164D7E20FF9E08 /* UITextView+MAGMore.h in Headers */,
+				AB8DEEEAC2EA5F64BEC3AF91554E5777 /* UIView+MAGMore.h in Headers */,
+				CF4F52163F500F40962302E3484296DC /* UIViewController+MAGMore.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		337DDFE4785DE8585D2D13BBA8F4C1CA /* MAGMatveevReusable */ = {
+		689B91A43B96820CB33BB9908DA3BF62 /* Pods-MAGMatveevReusable_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D10E3EA5CB97BB2CE1AD92591D0981DD /* Build configuration list for PBXNativeTarget "MAGMatveevReusable" */;
+			buildConfigurationList = 50BFFAE493CDF2947E0BF5802A7011DF /* Build configuration list for PBXNativeTarget "Pods-MAGMatveevReusable_Tests" */;
 			buildPhases = (
-				C4FDCB2022D10FAA0E001554DAE37934 /* Sources */,
-				79E106A13877C05D034E645897C0CB1E /* Frameworks */,
-				EF2F9E125BCD2CE3DFA4AA07B390F428 /* Headers */,
+				95BB3243CFD62438EE0EBF9F66ABA954 /* Sources */,
+				219521F25002E988FF8C89A9EDF333CA /* Frameworks */,
+				5E9FEA655E601BCE3EF1783421075B3F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A87921640438DC399FE4F112C0F29612 /* PBXTargetDependency */,
+			);
+			name = "Pods-MAGMatveevReusable_Tests";
+			productName = "Pods-MAGMatveevReusable_Tests";
+			productReference = 6B08319F61B11B379E483BEF894D2D09 /* Pods_MAGMatveevReusable_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ACA69F58EC67D361F8132A90787F171F /* MAGMatveevReusable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E88ABFA72B839DFDCC3D971DA449E6B /* Build configuration list for PBXNativeTarget "MAGMatveevReusable" */;
+			buildPhases = (
+				9EB2409DFECF0785828B1B90F7690A4E /* Sources */,
+				7691B80DEC861C083905FE654CBC51FE /* Frameworks */,
+				CA55547E07F0945B4C5FEE63A5BA084A /* Headers */,
 			);
 			buildRules = (
 			);
@@ -260,24 +292,6 @@
 			name = MAGMatveevReusable;
 			productName = MAGMatveevReusable;
 			productReference = 17E982F68097447E503DFE5A39CCF8A6 /* MAGMatveevReusable.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		FF4B5683CCE75C8262E8D650E5397E34 /* Pods-MAGMatveevReusable_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1BEB00BF4A39084A4A8A8FDA2B2F158B /* Build configuration list for PBXNativeTarget "Pods-MAGMatveevReusable_Tests" */;
-			buildPhases = (
-				AE2ED85681810D1C7BB4C45AC9BFAF86 /* Sources */,
-				32B9E40F52E0B1FD43BA601BE82476EE /* Frameworks */,
-				E9B96361652CF52AD5A09DAE27EBC3BE /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				B7D7C07E42F866D887694D13C441DB1E /* PBXTargetDependency */,
-			);
-			name = "Pods-MAGMatveevReusable_Tests";
-			productName = "Pods-MAGMatveevReusable_Tests";
-			productReference = 6B08319F61B11B379E483BEF894D2D09 /* Pods_MAGMatveevReusable_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -301,90 +315,56 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				337DDFE4785DE8585D2D13BBA8F4C1CA /* MAGMatveevReusable */,
-				FF4B5683CCE75C8262E8D650E5397E34 /* Pods-MAGMatveevReusable_Tests */,
+				ACA69F58EC67D361F8132A90787F171F /* MAGMatveevReusable */,
+				689B91A43B96820CB33BB9908DA3BF62 /* Pods-MAGMatveevReusable_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AE2ED85681810D1C7BB4C45AC9BFAF86 /* Sources */ = {
+		95BB3243CFD62438EE0EBF9F66ABA954 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D4696DC3589C9F369F4CEB8C4B63C83 /* Pods-MAGMatveevReusable_Tests-dummy.m in Sources */,
+				C6FA9566F96EBEC268F332AA52E59294 /* Pods-MAGMatveevReusable_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C4FDCB2022D10FAA0E001554DAE37934 /* Sources */ = {
+		9EB2409DFECF0785828B1B90F7690A4E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C74B0B361DAE654300B2F20D /* UINavigationBar+MAGMore.m in Sources */,
-				C739111F1D700F4D00052DF6 /* UIView+MAGMore.m in Sources */,
-				C74B0B3A1DAE654300B2F20D /* UIViewController+MAGMore.m in Sources */,
-				C73911671D75A75C00052DF6 /* MAGCommonDefines.m in Sources */,
-				C73911231D7017EA00052DF6 /* NSObject+MAGMore.m in Sources */,
-				C74B0B381DAE654300B2F20D /* UITextView+MAGMore.m in Sources */,
-				0D1C57DCBDD89CDE70C26AD0E67A7713 /* MAGMatveevReusable-dummy.m in Sources */,
+				65DA34E22075B35810F955CD61280C96 /* MAGCommonDefines.m in Sources */,
+				1B5EBEEF17468D2FE0F2137CF00920C3 /* MAGMatveevReusable-dummy.m in Sources */,
+				A3AE33A52BD248EE56F9A07B3B50A5D2 /* NSObject+MAGMore.m in Sources */,
+				C7F38FF95AF1F4F995548F03AE97018E /* UINavigationBar+MAGMore.m in Sources */,
+				C7CA6B741DE6CC470030C422 /* UIView+MAGAnimation.m in Sources */,
+				ADFEBB1870031BFAF93F680332C8800C /* UITextView+MAGMore.m in Sources */,
+				C7CA6B701DE6CBC00030C422 /* Frame.m in Sources */,
+				A2E4C6CDDE4150B1DC73F7E6DCAC7CCF /* UIView+MAGMore.m in Sources */,
+				3CFAFAF659AE9B09B2E5E77CA755ABBE /* UIViewController+MAGMore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B7D7C07E42F866D887694D13C441DB1E /* PBXTargetDependency */ = {
+		A87921640438DC399FE4F112C0F29612 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MAGMatveevReusable;
-			target = 337DDFE4785DE8585D2D13BBA8F4C1CA /* MAGMatveevReusable */;
-			targetProxy = D5FB01413B5C113CC324DF1606154B8F /* PBXContainerItemProxy */;
+			target = ACA69F58EC67D361F8132A90787F171F /* MAGMatveevReusable */;
+			targetProxy = 161389E116C480544A1E9DD3056D9AF2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		6ADB56165DB6516A97F75B4ED6C0BD39 /* Release */ = {
+		2F296F641DE3AA105B0F215628F6F5C2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F34C74D6A9905D2CB40ABFFC1AA0F85E /* Pods-MAGMatveevReusable_Tests.release.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
@@ -413,11 +393,13 @@
 			};
 			name = Release;
 		};
-		86DABE83F2835DBB2F336C240C71C6F9 /* Release */ = {
+		79F0DFAE77A94AC36A0FF0DD08222896 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3807B8EAD4336CCB7AD5BBE1193D6A35 /* MAGMatveevReusable.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
@@ -442,7 +424,42 @@
 			};
 			name = Release;
 		};
-		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+		8C71826A65003B5A206008AD9D4BD0E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C37B4E664123F8E7F79794A0ECC63BF7 /* Pods-MAGMatveevReusable_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MAGMatveevReusable_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MAGMatveevReusable_Tests/Pods-MAGMatveevReusable_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MAGMatveevReusable_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -460,6 +477,47 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -479,16 +537,19 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		D7E93FB00F83180698C25839E4EE158A /* Debug */ = {
+		F18AD3D6E5A604E476ED690E6E29AC05 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3807B8EAD4336CCB7AD5BBE1193D6A35 /* MAGMatveevReusable.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
@@ -513,65 +574,32 @@
 			};
 			name = Debug;
 		};
-		E33175270581E538429D5B59F8CD75A4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C37B4E664123F8E7F79794A0ECC63BF7 /* Pods-MAGMatveevReusable_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-MAGMatveevReusable_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MAGMatveevReusable_Tests/Pods-MAGMatveevReusable_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_MAGMatveevReusable_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1BEB00BF4A39084A4A8A8FDA2B2F158B /* Build configuration list for PBXNativeTarget "Pods-MAGMatveevReusable_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E33175270581E538429D5B59F8CD75A4 /* Debug */,
-				6ADB56165DB6516A97F75B4ED6C0BD39 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
-				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D10E3EA5CB97BB2CE1AD92591D0981DD /* Build configuration list for PBXNativeTarget "MAGMatveevReusable" */ = {
+		50BFFAE493CDF2947E0BF5802A7011DF /* Build configuration list for PBXNativeTarget "Pods-MAGMatveevReusable_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D7E93FB00F83180698C25839E4EE158A /* Debug */,
-				86DABE83F2835DBB2F336C240C71C6F9 /* Release */,
+				8C71826A65003B5A206008AD9D4BD0E8 /* Debug */,
+				2F296F641DE3AA105B0F215628F6F5C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E88ABFA72B839DFDCC3D971DA449E6B /* Build configuration list for PBXNativeTarget "MAGMatveevReusable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F18AD3D6E5A604E476ED690E6E29AC05 /* Debug */,
+				79F0DFAE77A94AC36A0FF0DD08222896 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
