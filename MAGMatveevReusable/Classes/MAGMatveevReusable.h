@@ -13,7 +13,7 @@
 #import "NSObject+MAGMore.h"
 #import "UIView+MAGMore.h"
 #import "UIView+MAGAnimation.h"
-#import "Frame.h"
+#import "MAGFrame.h"
 #import "UINavigationBar+MAGMore.h"
 #import "UITextView+MAGMore.h"
 #import "UIViewController+MAGMore.h"

@@ -9,7 +9,7 @@
 #import "UITextView+MAGMore.h"
 #import "UIView+MAGMore.h"
 #import "UIView+MAGAnimation.h"
-#import "Frame.h"
+#import "MAGFrame.h"
 #import "UIViewController+MAGMore.h"
 
 FOUNDATION_EXPORT double MAGMatveevReusableVersionNumber;

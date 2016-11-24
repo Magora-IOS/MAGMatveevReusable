@@ -7,9 +7,9 @@
 
 
 
-#import "Frame.h"
+#import "MAGFrame.h"
 
-@implementation Frame
+@implementation MAGFrame
 
 + (CGRect)layoutFrame:(CGRect)frame inFrame:(CGRect)superframe withFrameAlignment:(FrameAlignment)frameAlignment {
     CGRect resultFrame = frame;

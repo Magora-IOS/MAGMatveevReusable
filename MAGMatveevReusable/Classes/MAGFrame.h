@@ -17,7 +17,7 @@ typedef NS_ENUM(NSUInteger, FrameAlignment) {
     FrameAlignmentNone
 };
 
-@interface Frame : NSObject
+@interface MAGFrame : NSObject
 
 + (CGRect)layoutFrame:(CGRect)frame inFrame:(CGRect)superframe withFrameAlignment:(FrameAlignment)frameAlignment;
 
