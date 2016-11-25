@@ -13,11 +13,11 @@
 @implementation UIViewController (MAGMore)
 
 - (void)mag_addCloseButton {
-    UIBarButtonItem *closeBBI = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemStop target:self action:@selector(mag_closeAction)];
+    UIBarButtonItem *closeBBI = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemStop target:self action:@selector(closeAction)];
     self.navigationItem.leftBarButtonItems = @[closeBBI];
 }
 
-- (IBAction)mag_closeAction {
+- (IBAction)closeAction {
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
