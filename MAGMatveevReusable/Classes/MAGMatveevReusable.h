@@ -17,5 +17,6 @@
 #import "UINavigationBar+MAGMore.h"
 #import "UITextView+MAGMore.h"
 #import "UIViewController+MAGMore.h"
+#import "MAGDrawing.h"
 
 #endif /* MAGTablesCollections_h */
