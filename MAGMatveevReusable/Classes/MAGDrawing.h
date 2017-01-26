@@ -10,8 +10,11 @@
 
 @interface MAGDrawing : NSObject
 
-#define RGBA_FROM_HEX_STR(hexString) [Utils rgbFromHexString:hexString]
-+ (UIColor *)rgbFromHexString:(NSString *)hexString;
+#define RGBA_AHEXSTR(hexString) [MAGDrawing rgbFromAHEXString:hexString]
+#define RGB_HEXSTR(hexString) [MAGDrawing rgbFromHEXString:hexString]
+
++ (UIColor *)rgbFromAHEXString:(NSString *)hexString;
++ (UIColor *)rgbFromHEXString:(NSString *)hexString;
 
 + (UIImage *)image:(UIImage *)image maskedByColor:(UIColor *)color;
 + (UIImage *)imageNamed:(NSString *)name maskedByColor:(UIColor *)color;

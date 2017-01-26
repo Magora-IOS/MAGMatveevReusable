@@ -12,7 +12,7 @@
 @implementation MAGDrawing
 
 //      for example: "#AARRGGBB"
-+ (UIColor *)rgbFromHexString:(NSString *)hexString {
++ (UIColor *)rgbFromAHEXString:(NSString *)hexString {
     UIColor *result;
     NSMutableCharacterSet *characterSet = [[NSCharacterSet whitespaceAndNewlineCharacterSet] mutableCopy];
     [characterSet formUnionWithCharacterSet:[NSCharacterSet characterSetWithCharactersInString:@"#"]];
@@ -24,12 +24,35 @@
         unsigned long long rgbValue = 0;
         [[NSScanner scannerWithString:cString] scanHexLongLong:&rgbValue];
         
-        CGFloat alpha = ((CGFloat)((rgbValue & 0xFF000000) >> 24));
+        CGFloat rawAlpha = ((CGFloat)((rgbValue & 0xFF000000) >> 24));
         CGFloat red = ((CGFloat)((rgbValue & 0x00FF0000) >> 16));
         CGFloat green = ((CGFloat)((rgbValue & 0x0000FF00) >> 8));
         CGFloat blue = ((CGFloat)(rgbValue & 0x000000FF));
-        
+		
+		CGFloat alpha = rawAlpha / 255.0;
         result = RGBA(red, green, blue, alpha);
+    }
+    return result;
+}
+
+//      for example: "#RRGGBB"
++ (UIColor *)rgbFromHEXString:(NSString *)hexString {
+    UIColor *result;
+    NSMutableCharacterSet *characterSet = [[NSCharacterSet whitespaceAndNewlineCharacterSet] mutableCopy];
+    [characterSet formUnionWithCharacterSet:[NSCharacterSet characterSetWithCharactersInString:@"#"]];
+    NSString *cString = [[hexString stringByTrimmingCharactersInSet:characterSet] uppercaseString];
+    
+    if ([cString length] != 6) {
+        result =  [UIColor colorWithWhite:0.0 alpha:0.0];
+    } else {
+        unsigned long long rgbValue = 0;
+        [[NSScanner scannerWithString:cString] scanHexLongLong:&rgbValue];
+        
+        CGFloat red = ((CGFloat)((rgbValue & 0xFF0000) >> 16));
+        CGFloat green = ((CGFloat)((rgbValue & 0x00FF00) >> 8));
+        CGFloat blue = ((CGFloat)(rgbValue & 0x0000FF));
+        
+        result = RGBA(red, green, blue, 1);
     }
     return result;
 }
