@@ -1,6 +1,6 @@
 {
   "name": "MAGMatveevReusable",
-  "version": "0.3.0",
+  "version": "0.2.2",
   "summary": "Reusable modules for pods of Denis Matveev.",
   "description": "TODO: Reusable modules for pods of Denis Matveev.",
   "homepage": "https://github.com/Magora-IOS/MAGMatveevReusable",
@@ -13,15 +13,10 @@
   },
   "source": {
     "git": "https://github.com/Magora-IOS/MAGMatveevReusable.git",
-    "tag": "0.3.0"
+    "tag": "0.2.2"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "MAGMatveevReusable/Classes/**/*",
-  "dependencies": {
-    "Masonry": [
-      "~> 1.0"
-    ]
-  }
+  "source_files": "MAGMatveevReusable/Classes/**/*"
 }
