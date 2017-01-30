@@ -21,7 +21,6 @@
 
 #import "NSArray+MAGMore.h"
 #import "NSDictionary+MAGMore.h"
-#import "UIDevice-Reachability.h"
 #import "MAGMaterializerView.h"
 
 #endif /* MAGTablesCollections_h */
