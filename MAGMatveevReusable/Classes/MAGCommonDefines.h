@@ -38,6 +38,10 @@
 #define IOS_VERSION_SECOND_NUMBER ([[UIDevice currentDevice].systemVersion componentsSeparatedByString:@"."].count > 1 ? [[[[UIDevice currentDevice].systemVersion componentsSeparatedByString:@"."] objectAtIndex:1] integerValue] : 0)
 #define IOS_VERSION_THIRD_NUMBER ([[UIDevice currentDevice].systemVersion componentsSeparatedByString:@"."].count > 2 ? [[[[UIDevice currentDevice].systemVersion componentsSeparatedByString:@"."] objectAtIndex:2] integerValue] : 0)
 
+typedef void(^MAGErrorBlock)(NSError *error);
+typedef void(^MAGArrayBlock)(NSArray *items);
+typedef void(^MAGDictBlock)(NSDictionary *dict);
+
 typedef void(^MAGBoolBlock)(BOOL boolValue);
 typedef void(^MAGIntegerBlock)(NSInteger value);
 typedef void(^MAGIndexBlock)(NSInteger index);
