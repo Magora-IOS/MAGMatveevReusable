@@ -20,8 +20,4 @@
     return result;
 }
 
-+ (instancetype)_nullObjectForFindingPropertyName;{
-    return nil;
-}
-
 @end

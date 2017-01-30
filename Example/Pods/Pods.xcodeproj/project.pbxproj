@@ -21,14 +21,6 @@
 		B83E3BCEA77F0FA1F26116EA14FD2513 /* UINavigationBar+MAGMore.h in Headers */ = {isa = PBXBuildFile; fileRef = 748AE2D0B238D11F4F03FDE071580F35 /* UINavigationBar+MAGMore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BEF43D4526B8F35AE4ADD96CC2456FF0 /* NSObject+MAGMore.h in Headers */ = {isa = PBXBuildFile; fileRef = 67828D5A03DF84660B957196DB61A90A /* NSObject+MAGMore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C6FA9566F96EBEC268F332AA52E59294 /* Pods-MAGMatveevReusable_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F24377CBDB2FD92E1851EAFDA51CEB21 /* Pods-MAGMatveevReusable_Tests-dummy.m */; };
-		C71B1E281E3F787E007DA2EA /* MAGMaterializerView.h in Headers */ = {isa = PBXBuildFile; fileRef = C71B1E201E3F787E007DA2EA /* MAGMaterializerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C71B1E291E3F787E007DA2EA /* MAGMaterializerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C71B1E211E3F787E007DA2EA /* MAGMaterializerView.m */; };
-		C71B1E2A1E3F787E007DA2EA /* NSArray+MAGMore.h in Headers */ = {isa = PBXBuildFile; fileRef = C71B1E221E3F787E007DA2EA /* NSArray+MAGMore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C71B1E2B1E3F787E007DA2EA /* NSArray+MAGMore.m in Sources */ = {isa = PBXBuildFile; fileRef = C71B1E231E3F787E007DA2EA /* NSArray+MAGMore.m */; };
-		C71B1E2C1E3F787E007DA2EA /* NSDictionary+MAGMore.h in Headers */ = {isa = PBXBuildFile; fileRef = C71B1E241E3F787E007DA2EA /* NSDictionary+MAGMore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C71B1E2D1E3F787E007DA2EA /* NSDictionary+MAGMore.m in Sources */ = {isa = PBXBuildFile; fileRef = C71B1E251E3F787E007DA2EA /* NSDictionary+MAGMore.m */; };
-		C71B1E2E1E3F787E007DA2EA /* UIDevice+Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = C71B1E261E3F787E007DA2EA /* UIDevice+Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C71B1E2F1E3F787E007DA2EA /* UIDevice+Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C71B1E271E3F787E007DA2EA /* UIDevice+Reachability.m */; };
 		C720D2881DF65F88004C23B5 /* MAGDrawing.h in Headers */ = {isa = PBXBuildFile; fileRef = C720D2861DF65F88004C23B5 /* MAGDrawing.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C720D2891DF65F88004C23B5 /* MAGDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = C720D2871DF65F88004C23B5 /* MAGDrawing.m */; };
 		C7CA6B6F1DE6CBC00030C422 /* MAGFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = C7CA6B6D1DE6CBC00030C422 /* MAGFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -76,14 +68,6 @@
 		ACEF6A6BF60734C1572669D90A7044AA /* MAGCommonDefines.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MAGCommonDefines.m; sourceTree = "<group>"; };
 		C0780D6FD624322B4AD9394CD903EAF9 /* Pods-MAGMatveevReusable_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MAGMatveevReusable_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C37B4E664123F8E7F79794A0ECC63BF7 /* Pods-MAGMatveevReusable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MAGMatveevReusable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C71B1E201E3F787E007DA2EA /* MAGMaterializerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAGMaterializerView.h; sourceTree = "<group>"; };
-		C71B1E211E3F787E007DA2EA /* MAGMaterializerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAGMaterializerView.m; sourceTree = "<group>"; };
-		C71B1E221E3F787E007DA2EA /* NSArray+MAGMore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MAGMore.h"; sourceTree = "<group>"; };
-		C71B1E231E3F787E007DA2EA /* NSArray+MAGMore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MAGMore.m"; sourceTree = "<group>"; };
-		C71B1E241E3F787E007DA2EA /* NSDictionary+MAGMore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MAGMore.h"; sourceTree = "<group>"; };
-		C71B1E251E3F787E007DA2EA /* NSDictionary+MAGMore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MAGMore.m"; sourceTree = "<group>"; };
-		C71B1E261E3F787E007DA2EA /* UIDevice+Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Reachability.h"; sourceTree = "<group>"; };
-		C71B1E271E3F787E007DA2EA /* UIDevice+Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Reachability.m"; sourceTree = "<group>"; };
 		C720D2861DF65F88004C23B5 /* MAGDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAGDrawing.h; sourceTree = "<group>"; };
 		C720D2871DF65F88004C23B5 /* MAGDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAGDrawing.m; sourceTree = "<group>"; };
 		C7CA6B6D1DE6CBC00030C422 /* MAGFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAGFrame.h; sourceTree = "<group>"; };
@@ -134,14 +118,6 @@
 			isa = PBXGroup;
 			children = (
 				5443A57C96A9A8C6CFB326AAB279FDDA /* MAGMatveevReusable.h */,
-				C71B1E201E3F787E007DA2EA /* MAGMaterializerView.h */,
-				C71B1E211E3F787E007DA2EA /* MAGMaterializerView.m */,
-				C71B1E221E3F787E007DA2EA /* NSArray+MAGMore.h */,
-				C71B1E231E3F787E007DA2EA /* NSArray+MAGMore.m */,
-				C71B1E241E3F787E007DA2EA /* NSDictionary+MAGMore.h */,
-				C71B1E251E3F787E007DA2EA /* NSDictionary+MAGMore.m */,
-				C71B1E261E3F787E007DA2EA /* UIDevice+Reachability.h */,
-				C71B1E271E3F787E007DA2EA /* UIDevice+Reachability.m */,
 				C720D2861DF65F88004C23B5 /* MAGDrawing.h */,
 				C720D2871DF65F88004C23B5 /* MAGDrawing.m */,
 				1812B716B08D2A4C6B4A4444C6EAC0FF /* MAGCommonDefines.h */,
@@ -275,16 +251,12 @@
 			files = (
 				9684EA9CD7249C4C65D73C839CF54AA2 /* MAGCommonDefines.h in Headers */,
 				DFFD520F56A235DCAA5E96DD0D854800 /* MAGMatveevReusable-umbrella.h in Headers */,
-				C71B1E2E1E3F787E007DA2EA /* UIDevice+Reachability.h in Headers */,
 				C7CA6B731DE6CC470030C422 /* UIView+MAGAnimation.h in Headers */,
 				25380DA0A2D5E0B1EF3F4E3E393FBCB0 /* MAGMatveevReusable.h in Headers */,
 				C7CA6B6F1DE6CBC00030C422 /* MAGFrame.h in Headers */,
-				C71B1E2C1E3F787E007DA2EA /* NSDictionary+MAGMore.h in Headers */,
 				BEF43D4526B8F35AE4ADD96CC2456FF0 /* NSObject+MAGMore.h in Headers */,
 				C720D2881DF65F88004C23B5 /* MAGDrawing.h in Headers */,
 				B83E3BCEA77F0FA1F26116EA14FD2513 /* UINavigationBar+MAGMore.h in Headers */,
-				C71B1E281E3F787E007DA2EA /* MAGMaterializerView.h in Headers */,
-				C71B1E2A1E3F787E007DA2EA /* NSArray+MAGMore.h in Headers */,
 				D52A76C762B5AE82B6164D7E20FF9E08 /* UITextView+MAGMore.h in Headers */,
 				AB8DEEEAC2EA5F64BEC3AF91554E5777 /* UIView+MAGMore.h in Headers */,
 				CF4F52163F500F40962302E3484296DC /* UIViewController+MAGMore.h in Headers */,
@@ -369,7 +341,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C71B1E291E3F787E007DA2EA /* MAGMaterializerView.m in Sources */,
 				65DA34E22075B35810F955CD61280C96 /* MAGCommonDefines.m in Sources */,
 				1B5EBEEF17468D2FE0F2137CF00920C3 /* MAGMatveevReusable-dummy.m in Sources */,
 				C720D2891DF65F88004C23B5 /* MAGDrawing.m in Sources */,
@@ -379,10 +350,7 @@
 				ADFEBB1870031BFAF93F680332C8800C /* UITextView+MAGMore.m in Sources */,
 				C7CA6B701DE6CBC00030C422 /* MAGFrame.m in Sources */,
 				A2E4C6CDDE4150B1DC73F7E6DCAC7CCF /* UIView+MAGMore.m in Sources */,
-				C71B1E2D1E3F787E007DA2EA /* NSDictionary+MAGMore.m in Sources */,
 				3CFAFAF659AE9B09B2E5E77CA755ABBE /* UIViewController+MAGMore.m in Sources */,
-				C71B1E2F1E3F787E007DA2EA /* UIDevice+Reachability.m in Sources */,
-				C71B1E2B1E3F787E007DA2EA /* NSArray+MAGMore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

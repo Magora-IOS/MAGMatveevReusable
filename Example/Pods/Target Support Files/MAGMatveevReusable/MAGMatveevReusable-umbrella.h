@@ -12,11 +12,6 @@
 #import "UIViewController+MAGMore.h"
 #import "MAGDrawing.h"
 
-#import "NSArray+MAGMore.h"
-#import "NSDictionary+MAGMore.h"
-#import "UIDevice+Reachability.h"
-#import "MAGMaterializerView.h"
-
 #import "MAGMatveevReusable.h"
 
 FOUNDATION_EXPORT double MAGMatveevReusableVersionNumber;
