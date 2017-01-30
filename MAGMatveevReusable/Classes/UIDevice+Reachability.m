@@ -21,7 +21,7 @@
 #include <net/if.h>
 #include <ifaddrs.h>
 #import <dlfcn.h>
-#import "UIDevice+Reachability.h"
+#import "UIDevice-Reachability.h"
 
 @implementation UIDevice (Reachability)
 SCNetworkConnectionFlags connectionFlags;
