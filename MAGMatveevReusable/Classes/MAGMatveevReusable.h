@@ -19,4 +19,8 @@
 #import "UIViewController+MAGMore.h"
 #import "MAGDrawing.h"
 
+#import "MAGMaterializerView.h"
+#import "NSArray+MAGMore.h"
+#import "NSDictionary+MAGMore.h"
+
 #endif /* MAGTablesCollections_h */

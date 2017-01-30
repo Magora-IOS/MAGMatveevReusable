@@ -23,6 +23,12 @@
 		C6FA9566F96EBEC268F332AA52E59294 /* Pods-MAGMatveevReusable_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F24377CBDB2FD92E1851EAFDA51CEB21 /* Pods-MAGMatveevReusable_Tests-dummy.m */; };
 		C720D2881DF65F88004C23B5 /* MAGDrawing.h in Headers */ = {isa = PBXBuildFile; fileRef = C720D2861DF65F88004C23B5 /* MAGDrawing.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C720D2891DF65F88004C23B5 /* MAGDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = C720D2871DF65F88004C23B5 /* MAGDrawing.m */; };
+		C74C2B021E3F8E8C00CCD573 /* MAGMaterializerView.h in Headers */ = {isa = PBXBuildFile; fileRef = C74C2AFC1E3F8E8C00CCD573 /* MAGMaterializerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C74C2B031E3F8E8C00CCD573 /* MAGMaterializerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C74C2AFD1E3F8E8C00CCD573 /* MAGMaterializerView.m */; };
+		C74C2B041E3F8E8C00CCD573 /* NSArray+MAGMore.m in Sources */ = {isa = PBXBuildFile; fileRef = C74C2AFE1E3F8E8C00CCD573 /* NSArray+MAGMore.m */; };
+		C74C2B051E3F8E8C00CCD573 /* NSDictionary+MAGMore.h in Headers */ = {isa = PBXBuildFile; fileRef = C74C2AFF1E3F8E8C00CCD573 /* NSDictionary+MAGMore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C74C2B061E3F8E8C00CCD573 /* NSArray+MAGMore.h in Headers */ = {isa = PBXBuildFile; fileRef = C74C2B001E3F8E8C00CCD573 /* NSArray+MAGMore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C74C2B071E3F8E8C00CCD573 /* NSDictionary+MAGMore.m in Sources */ = {isa = PBXBuildFile; fileRef = C74C2B011E3F8E8C00CCD573 /* NSDictionary+MAGMore.m */; };
 		C7CA6B6F1DE6CBC00030C422 /* MAGFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = C7CA6B6D1DE6CBC00030C422 /* MAGFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C7CA6B701DE6CBC00030C422 /* MAGFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = C7CA6B6E1DE6CBC00030C422 /* MAGFrame.m */; };
 		C7CA6B731DE6CC470030C422 /* UIView+MAGAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = C7CA6B711DE6CC470030C422 /* UIView+MAGAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -70,6 +76,12 @@
 		C37B4E664123F8E7F79794A0ECC63BF7 /* Pods-MAGMatveevReusable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MAGMatveevReusable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C720D2861DF65F88004C23B5 /* MAGDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAGDrawing.h; sourceTree = "<group>"; };
 		C720D2871DF65F88004C23B5 /* MAGDrawing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAGDrawing.m; sourceTree = "<group>"; };
+		C74C2AFC1E3F8E8C00CCD573 /* MAGMaterializerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAGMaterializerView.h; sourceTree = "<group>"; };
+		C74C2AFD1E3F8E8C00CCD573 /* MAGMaterializerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAGMaterializerView.m; sourceTree = "<group>"; };
+		C74C2AFE1E3F8E8C00CCD573 /* NSArray+MAGMore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MAGMore.m"; sourceTree = "<group>"; };
+		C74C2AFF1E3F8E8C00CCD573 /* NSDictionary+MAGMore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MAGMore.h"; sourceTree = "<group>"; };
+		C74C2B001E3F8E8C00CCD573 /* NSArray+MAGMore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MAGMore.h"; sourceTree = "<group>"; };
+		C74C2B011E3F8E8C00CCD573 /* NSDictionary+MAGMore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MAGMore.m"; sourceTree = "<group>"; };
 		C7CA6B6D1DE6CBC00030C422 /* MAGFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAGFrame.h; sourceTree = "<group>"; };
 		C7CA6B6E1DE6CBC00030C422 /* MAGFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAGFrame.m; sourceTree = "<group>"; };
 		C7CA6B711DE6CC470030C422 /* UIView+MAGAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MAGAnimation.h"; sourceTree = "<group>"; };
@@ -136,6 +148,12 @@
 				C7CA6B6E1DE6CBC00030C422 /* MAGFrame.m */,
 				0C80B9330BC4D24656EB984CA904E528 /* UIViewController+MAGMore.h */,
 				2E190639B108FEA688546C6BB4BF8D88 /* UIViewController+MAGMore.m */,
+				C74C2AFC1E3F8E8C00CCD573 /* MAGMaterializerView.h */,
+				C74C2AFD1E3F8E8C00CCD573 /* MAGMaterializerView.m */,
+				C74C2B001E3F8E8C00CCD573 /* NSArray+MAGMore.h */,
+				C74C2AFE1E3F8E8C00CCD573 /* NSArray+MAGMore.m */,
+				C74C2AFF1E3F8E8C00CCD573 /* NSDictionary+MAGMore.h */,
+				C74C2B011E3F8E8C00CCD573 /* NSDictionary+MAGMore.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -251,12 +269,15 @@
 			files = (
 				9684EA9CD7249C4C65D73C839CF54AA2 /* MAGCommonDefines.h in Headers */,
 				DFFD520F56A235DCAA5E96DD0D854800 /* MAGMatveevReusable-umbrella.h in Headers */,
+				C74C2B061E3F8E8C00CCD573 /* NSArray+MAGMore.h in Headers */,
 				C7CA6B731DE6CC470030C422 /* UIView+MAGAnimation.h in Headers */,
 				25380DA0A2D5E0B1EF3F4E3E393FBCB0 /* MAGMatveevReusable.h in Headers */,
+				C74C2B021E3F8E8C00CCD573 /* MAGMaterializerView.h in Headers */,
 				C7CA6B6F1DE6CBC00030C422 /* MAGFrame.h in Headers */,
 				BEF43D4526B8F35AE4ADD96CC2456FF0 /* NSObject+MAGMore.h in Headers */,
 				C720D2881DF65F88004C23B5 /* MAGDrawing.h in Headers */,
 				B83E3BCEA77F0FA1F26116EA14FD2513 /* UINavigationBar+MAGMore.h in Headers */,
+				C74C2B051E3F8E8C00CCD573 /* NSDictionary+MAGMore.h in Headers */,
 				D52A76C762B5AE82B6164D7E20FF9E08 /* UITextView+MAGMore.h in Headers */,
 				AB8DEEEAC2EA5F64BEC3AF91554E5777 /* UIView+MAGMore.h in Headers */,
 				CF4F52163F500F40962302E3484296DC /* UIViewController+MAGMore.h in Headers */,
@@ -350,7 +371,10 @@
 				ADFEBB1870031BFAF93F680332C8800C /* UITextView+MAGMore.m in Sources */,
 				C7CA6B701DE6CBC00030C422 /* MAGFrame.m in Sources */,
 				A2E4C6CDDE4150B1DC73F7E6DCAC7CCF /* UIView+MAGMore.m in Sources */,
+				C74C2B031E3F8E8C00CCD573 /* MAGMaterializerView.m in Sources */,
 				3CFAFAF659AE9B09B2E5E77CA755ABBE /* UIViewController+MAGMore.m in Sources */,
+				C74C2B041E3F8E8C00CCD573 /* NSArray+MAGMore.m in Sources */,
+				C74C2B071E3F8E8C00CCD573 /* NSDictionary+MAGMore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
