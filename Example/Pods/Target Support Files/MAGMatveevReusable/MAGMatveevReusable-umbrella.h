@@ -10,7 +10,7 @@
 #import "NSArray+MAGMore.h"
 #import "NSDictionary+MAGMore.h"
 #import "NSObject+MAGMore.h"
-#import "UIDevice+Reachability.h"
+#import "UIDevice-Reachability.h"
 #import "UINavigationBar+MAGMore.h"
 #import "UITextView+MAGMore.h"
 #import "UIView+MAGAnimation.h"
