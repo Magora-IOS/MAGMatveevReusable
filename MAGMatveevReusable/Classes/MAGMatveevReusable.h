@@ -23,6 +23,6 @@
 #import "NSArray+MAGMore.h"
 #import "NSDictionary+MAGMore.h"
 
-#import "UIDevice+Reachability.h"
+#import "UIDevice+MAGReachability.h"
 
 #endif /* MAGTablesCollections_h */
