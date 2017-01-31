@@ -12,7 +12,7 @@
 #include <net/if.h>
 #include <ifaddrs.h>
 #import <dlfcn.h>
-#import "UIDevice+Reachability.h"
+#import "UIDevice+MAGReachability.h"
 
 @implementation UIDevice (Reachability)
 SCNetworkConnectionFlags connectionFlags;
