@@ -7,186 +7,223 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		085E7EBBFA44787F50BD226E59EAE1E7 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		08FD83C15736AC0BEF1D210CB26DF77C /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */; };
-		0AF62A23834C5DC2B37F3A238C30A9E6 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0C7C668D51D3F0588C12FA19A69E0DFE /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */; };
-		0EA9BAE0FB2C86371AFECC6B3CE8150F /* UIViewController+MAGMore.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E1C5C7FFE55153C27D25D632AFC817 /* UIViewController+MAGMore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		107DA3174C7EFB5DA5E116842D40B371 /* MAGCommonDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DD9A9E2E2227916949997D0E1C7A296 /* MAGCommonDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1190B21A1EC7C8FF9EFF4502EB936434 /* MAGDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = 6910D3A8190B8CE206FBAF6F8D298F72 /* MAGDrawing.m */; };
-		193A66AE7E91D063DB8AFBE63F6D24E8 /* MAGCommonDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C0E535344B7ED368E8BDBB7CFFC60D /* MAGCommonDefines.m */; };
-		1FCD61EA838B3E93EF209E84C019326C /* NSArray+MAGMore.m in Sources */ = {isa = PBXBuildFile; fileRef = 77EC955989C1F9CF4F1CB4A9E0F9BE75 /* NSArray+MAGMore.m */; };
-		20BD60D4F925A23395E528BFC0E8029B /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */; };
-		261823C2EF94E6E4EA0090E29BE746C0 /* MAGFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BE47580C3A9121BC4565BDC99EE6019 /* MAGFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2FA210C084B6C673264CA1DCFDC0078A /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */; };
-		30CABA58D323075A09D665626458AC18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D9A3FCE044F805F44733D26C30276A /* Foundation.framework */; };
-		37A7BF73115BE67C7237039F15D0987B /* MAGMatveevReusable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6770B685771CD39360AB0CD2E3A2A6C2 /* MAGMatveevReusable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		39AD26099112BC5811B66F16D17718BD /* NSDictionary+MAGMore.m in Sources */ = {isa = PBXBuildFile; fileRef = 529DE5BAE9546E342E8918A8EF131DEE /* NSDictionary+MAGMore.m */; };
-		3DDD2BB7F337C8B0953F58865F06ADA8 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13FC8E35EDBC629D62166DD797E6DE52 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3FDE9D5FA951DE797EB4E2C3544F9B2C /* MAGDrawing.h in Headers */ = {isa = PBXBuildFile; fileRef = 31072CF8A0DB4109C1040E58613A501F /* MAGDrawing.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		438F34D25C3FBC70FD308FA2AF9A00E1 /* UIView+MAGMore.m in Sources */ = {isa = PBXBuildFile; fileRef = FD734D045B5B9E7A9EA3BE3F85180761 /* UIView+MAGMore.m */; };
+		01BAF10A0F9685373A9BC7D8C87030B7 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF35C23E029BF10AE1D3595169AFBCF /* Masonry.framework */; };
+		02C706335473712A6498A862BA270ADA /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D504F19E732EC62A4159F3C23205BA1 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F5925A3BABCBDCE8584832C14B7924A /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FA00AD0D599AB061567B6D812961AFC /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13FC8E35EDBC629D62166DD797E6DE52 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		187FD498708BDC7C3063B384C7DE3F46 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */; };
+		1AB95C10505555F9CCA0385B0233CA8A /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */; };
+		1CC874803B5F51C12A10A744290584BD /* NSObject+MAGMore.m in Sources */ = {isa = PBXBuildFile; fileRef = A870944509836857727C9E836377F3A6 /* NSObject+MAGMore.m */; };
+		1EB7FF045EA6B8D95CE4F82B0A546193 /* MAGMaterializerView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCD1641A650D9DF06AE0927C8AFFA150 /* MAGMaterializerView.m */; };
+		2444A306EC31DB95DA83C71FA749F23B /* MAGDrawing.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FEDA8263E20997E62280EBD05398CC /* MAGDrawing.m */; };
+		24F049776CC34CA7E736DD92A4CACF75 /* NSDictionary+MAGMore.m in Sources */ = {isa = PBXBuildFile; fileRef = F35F2D8A41FB46404EFA09226E88CF25 /* NSDictionary+MAGMore.m */; };
+		24F4BD8B5F6A75360E2932ADE7B8FCB7 /* MAGDoubleTapDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFE99B116A183DF89B8B7787F9A8AA0 /* MAGDoubleTapDetector.m */; };
+		2D8449654F425CC313936AEE95FE9995 /* MAGDrawing.h in Headers */ = {isa = PBXBuildFile; fileRef = AF63428BDD927B62021D24DD33E74384 /* MAGDrawing.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D917C503657B71DC35069096534EC45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88521F0D0CD896EB7EB97EBCD22D91A6 /* UIKit.framework */; };
+		2F9220F31A5854EE8348A7D65D05FA1E /* MAGMatveevReusable.h in Headers */ = {isa = PBXBuildFile; fileRef = AC66771C9541EA64848828013A28991E /* MAGMatveevReusable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3082E131C067C4C0CF87A3051EB75E48 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37AEE2550EA90BCEB24A55AB4344A478 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE937DE71A73D4B7779FF934EC2373E2 /* Masonry-dummy.m */; };
+		3CE465C208EA8BE77DFEEE31D159472B /* MAGFreeSpaceTouchDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CE996D41BADE8BA309DC3A541CC5595 /* MAGFreeSpaceTouchDetector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EBE5109E25D97F9CCE3ACD534FE2FA1 /* MAGCommonDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = DD71F2175397CC470C38CCD35FFA0E64 /* MAGCommonDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40B3EFD89BC37598F9E824454B11DEE4 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		460875A358D865AF8D4EC5FB7E6ACE7A /* MAGTapDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = D9075B1F6C7FA415DA575AB5B5D9B768 /* MAGTapDetector.m */; };
+		4748BB8A9F0EDC820003B7B5854F618C /* MAGCommonDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C3BD70FE8E4C4ECD6BB62D477D1F66 /* MAGCommonDefines.m */; };
 		47BB623BA0852C2F0A4E8B82E7EA259B /* Pods-MAGMatveevReusable_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0780D6FD624322B4AD9394CD903EAF9 /* Pods-MAGMatveevReusable_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4825707A655178F6783B5031FEEF5148 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		48EA5FAFD6232C40C77D3B8474C1493B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88521F0D0CD896EB7EB97EBCD22D91A6 /* UIKit.framework */; };
-		499DA45E219507CEF5D2E8BDDBC29427 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		49D827EF3DB25FC25AF483BDE63F2383 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4E95D07E48182CBE33F455A01E5B2E74 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5344256ABE82BA8470E6307739729B1A /* NSArray+MAGMore.h in Headers */ = {isa = PBXBuildFile; fileRef = 320A698EDCEB63FCC4E23E933098B5AB /* NSArray+MAGMore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		53B524460E87759233545359AA2026B8 /* MAGMatveevReusable.h in Headers */ = {isa = PBXBuildFile; fileRef = B4F909CAA1FFA30FBC974DC59A8BA7AE /* MAGMatveevReusable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D371529CBCB2B9605B00B07088CA790 /* UIDevice+Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 532F33D026666C60ABB991FAAFA71D13 /* UIDevice+Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		675BFF1F9E03723F1626990BF3D277A9 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 986CB32629319F7F2256662716334944 /* MASConstraint.m */; };
-		68287A34102A5123B4B91B026C69B20E /* MAGFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 7571D299ACB35DE3A852DD7F2EFB43AD /* MAGFrame.m */; };
-		6F9377000E2C9C3A8DC82484A0ECB427 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		7FAAEC64A50C8A5891FD833C78E5D756 /* MAGMaterializerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5893EA5A5A2E983BF7AFAE0E114621C6 /* MAGMaterializerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		87839E77B880DCA07C97804469BF1D77 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8AEEA48BEA40640B091D2885F982A409 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8B188A782E770A53F49B5B937D7E5B7A /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */; };
-		8FC370862D02DD0525E80E53DCD0BD64 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		93B7726D711F3E385F161BF7F061D0D6 /* UIView+MAGAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = FB837D0207C28DED849313537CF328DF /* UIView+MAGAnimation.m */; };
-		94E325466B356477D2B11B8559861772 /* UIViewController+MAGMore.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E683CFEF064D395F31E9310203EB5A0 /* UIViewController+MAGMore.m */; };
-		9D67D12D97803C3DB2CFBF05B21C2D06 /* UIView+MAGAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B856D6ADC00F0E42E468AE6E785060F /* UIView+MAGAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AEDED9585ECE53FD0EE75606AABF99D0 /* NSObject+MAGMore.m in Sources */ = {isa = PBXBuildFile; fileRef = 1100739EDA39DD8E7B773A4DA1919A74 /* NSObject+MAGMore.m */; };
-		B051B634BD7B37366475DD95A6393DD9 /* NSObject+MAGMore.h in Headers */ = {isa = PBXBuildFile; fileRef = 50C828715EA2AD866F8C3D916811525C /* NSObject+MAGMore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B1F6C5EAC3E1BFE3D69B82EF578B8C56 /* MAGMaterializerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D12AC37865CBD6C808CDE17B5033AA47 /* MAGMaterializerView.m */; };
-		BA08C6A67F5AA383D74A0107BB1CE541 /* UITextView+MAGMore.h in Headers */ = {isa = PBXBuildFile; fileRef = 778FA5838B08D615B5A3BF98C0D01359 /* UITextView+MAGMore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BE72163BBF4A1DFF0D52DA2B2D7D2049 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE937DE71A73D4B7779FF934EC2373E2 /* Masonry-dummy.m */; };
-		C37C10A3EC10DF2419CD8EE03E9EB7D5 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C909DCAF560F43578C06BB1DBCDC9776 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */; };
-		D19E486B5EC869073D8FE0150218B2ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D9A3FCE044F805F44733D26C30276A /* Foundation.framework */; };
-		D60314495C28DB07FA63F5AB411C7102 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D6EF91D72D903561FAB4269798BEEF0F /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */; };
-		DA15B591860CF25F8E8D00A068D3DE79 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF35C23E029BF10AE1D3595169AFBCF /* Masonry.framework */; };
-		DCEFDEA70DF04165F277CE2416DADB3F /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD72AE7224BD266E57AEBD7B5DB1E05A /* MAGMatveevReusable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB8B9E6D2DFF75284556DE794F1A37C /* MAGMatveevReusable-dummy.m */; };
-		DEC379ADC05B51E98C54267FC701CF30 /* UINavigationBar+MAGMore.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F29AB22250EC619A60AAD4790FADD1D /* UINavigationBar+MAGMore.m */; };
+		4968A96BA7CB7947C4BA0813907438B8 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */; };
+		49FE257AA815088341B5A7F75FFD7D20 /* UIView+MAGMore.h in Headers */ = {isa = PBXBuildFile; fileRef = 530700D8460FC323A2D2A892A0FCF7A5 /* UIView+MAGMore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A2ACB9C702D7A17C723A36912C167A6 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */; };
+		4C709FFACB83C2423A87B65A1FDFE1AA /* UIView+MAGMore.m in Sources */ = {isa = PBXBuildFile; fileRef = F52332DB56B77CEFAC03867963B39981 /* UIView+MAGMore.m */; };
+		4ECC2E507CCEF198EAE26CA960D6968C /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		5404E2420EE8BB700BE8A56149759972 /* MAGDoubleTapDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = D2F319427FB4C99E8EBBF2DC1FF2ABB6 /* MAGDoubleTapDetector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BFDB92E2A4848AA915B6785AABD32C0 /* MAGMatveevReusable-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6770B685771CD39360AB0CD2E3A2A6C2 /* MAGMatveevReusable-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E0AF30906D0B288041AEB732E02C270 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6503629013440FEF4D29E15A0CE27881 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67D73F2F0BAB5B4182583D836F58D483 /* MAGFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A34FD64A87A20C16EC883BA02256C62 /* MAGFrame.m */; };
+		705094057E1F6A8BB1E9B012534BA5D4 /* MAGFreeSpaceTouchDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B7C039ADCF2617E6B0536F1035B9AA /* MAGFreeSpaceTouchDetector.m */; };
+		731390EB002DDB83E3E3B8DBDE3D33E9 /* MAGLongTouchDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = E2B2202E902A855D4C98C235466F88C0 /* MAGLongTouchDetector.m */; };
+		75833C49FB1E07B7DECDBF9EF221EA36 /* UIViewController+MAGMore.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1E835929F28B94835F6C25D2EBB132 /* UIViewController+MAGMore.m */; };
+		75BA5B2AF7A3177F65A4FB241A6C82BE /* UINavigationBar+MAGMore.h in Headers */ = {isa = PBXBuildFile; fileRef = FD0E353851F9F309D2D1FE007F3F22D7 /* UINavigationBar+MAGMore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77065FB8B24EED7A20B57DC60CB9438C /* MAGMaterializerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D96A26E1EAE83F0DC7AD69552F69856 /* MAGMaterializerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77348E9281DE590FC9C4A9C35E9878F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D9A3FCE044F805F44733D26C30276A /* Foundation.framework */; };
+		788728A7032712DF56F8A71DEF2A910F /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 986CB32629319F7F2256662716334944 /* MASConstraint.m */; };
+		7D293C49CBB76E15AD97BE8E251AED40 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		879018519194E3B28AD39D62D41AF5F0 /* UIView+MAGAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 19BBD61D50F08A7BAA134B2C9F038C82 /* UIView+MAGAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		884A2997B7DC538816675EFDA9A540FC /* NSArray+MAGMore.h in Headers */ = {isa = PBXBuildFile; fileRef = 678C8C01D970334D88201F0137DCD9D0 /* NSArray+MAGMore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C272ED0C556633B95C1D012A7208F6E /* MAGFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ECA74418D8B40F1E99588562E6C20B0 /* MAGFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DFBE64D89EEBE8B1646DCBE4EF02F2A /* MAGMatveevReusable-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB8B9E6D2DFF75284556DE794F1A37C /* MAGMatveevReusable-dummy.m */; };
+		9860A8BD3DED781F8A33DEE7484E4360 /* UIDevice+MAGReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = F276A0934C1D83884798ABFD554B2834 /* UIDevice+MAGReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98E4ED47AD8C6D1FFC6ACCA8E7F6304F /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */; };
+		9F4E22951892135A65EC75BE58F9FE9A /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FB83F3F330F9DD7E19BD651042AC6B6 /* MAGTapDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = 746AB5518E3846A65850743B32BD9043 /* MAGTapDetector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A22EDBF31CB082D00753AAA15447B21F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D9A3FCE044F805F44733D26C30276A /* Foundation.framework */; };
+		A33CAB6352C0B0AECE09DA4C2AA9BBE3 /* NSDictionary+MAGMore.h in Headers */ = {isa = PBXBuildFile; fileRef = 475392593CC52AE3D87D71E7F587232A /* NSDictionary+MAGMore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A73D4D97C4D431EAC7C0E73247A945C5 /* NSArray+MAGMore.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6FD2F2D21306A497574392FC745E63 /* NSArray+MAGMore.m */; };
+		AA92576069BEADA9EA2C4711F5BC3CB3 /* UIDevice+MAGReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 8064B6A893BF4694D11738165AAE5A65 /* UIDevice+MAGReachability.m */; };
+		AC82DD9E06C8EB4085CF244E3434B986 /* UIView+MAGAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A11B4FFC43D10FB0FE1BCF853ADF9241 /* UIView+MAGAnimation.m */; };
+		B6B44A420587D1CE684F087F29F0CC88 /* UITextView+MAGMore.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A089CA9BC5B96E10D682410B157DB7B /* UITextView+MAGMore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B855EA1CB8935CA940D088DFF7FBF176 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */; };
+		BABCFD1A6120035554D89D03494E74B4 /* UINavigationBar+MAGMore.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E884A7E87694D4812DD40720A179EEB /* UINavigationBar+MAGMore.m */; };
+		BB769CEFC824604A221D7C7FB45DA118 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC737ABDEA2F69F59A25BDAD56C552FE /* MAGDragDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B55616F44DE25422FA825A74E950E76 /* MAGDragDetector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2F7696449AD6B80CE54A6562522EDE1 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */; };
+		C71D4CDE1E5460CF00061511 /* MAGCacheCleaner.h in Headers */ = {isa = PBXBuildFile; fileRef = C71D4CDA1E5460CF00061511 /* MAGCacheCleaner.h */; };
+		C71D4CDF1E5460CF00061511 /* MAGCacheCleaner.m in Sources */ = {isa = PBXBuildFile; fileRef = C71D4CDB1E5460CF00061511 /* MAGCacheCleaner.m */; };
+		C71D4CE01E5460CF00061511 /* MAGFreeNameProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = C71D4CDC1E5460CF00061511 /* MAGFreeNameProvider.h */; };
+		C71D4CE11E5460CF00061511 /* MAGFreeNameProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = C71D4CDD1E5460CF00061511 /* MAGFreeNameProvider.m */; };
+		C7B12C588AF45546C019B0A6D73AEA31 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8DB0EBB4E60ABF943B8A135668944C3 /* NSObject+MAGMore.h in Headers */ = {isa = PBXBuildFile; fileRef = AF4F0FC11EF6741D8EA8FF436D82D04A /* NSObject+MAGMore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA438E54FD142308B56B7D9ECDADE01E /* UITextView+MAGMore.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9403EAF387F93E7815610C8DF9737B /* UITextView+MAGMore.m */; };
+		DCB7954FA1BEC8722DAA92C8BDB40532 /* UIViewController+MAGMore.h in Headers */ = {isa = PBXBuildFile; fileRef = 21744F17C013078DF59D516D521316E4 /* UIViewController+MAGMore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCC0A8431479F60FAD9D610A93D8EB8F /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF0655527E5D2BC1A01AA0731E50822D /* MAGDragDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3EE9406750A424E2FED237F80C28EA /* MAGDragDetector.m */; };
+		DFE4E64FFF4F435050CAEADA6BE316FF /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E43AD5A25BCEBD88DDBD5EA351169E49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D9A3FCE044F805F44733D26C30276A /* Foundation.framework */; };
-		E7CC3CC20525D3E6B7321C7A95DA0020 /* UINavigationBar+MAGMore.h in Headers */ = {isa = PBXBuildFile; fileRef = ED3ACC881CCB4D5C4401A2C6D1ADCE71 /* UINavigationBar+MAGMore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E9AD0C538F5D394CE14CF5BC79367495 /* UITextView+MAGMore.m in Sources */ = {isa = PBXBuildFile; fileRef = 947C272AB41A90CE0C79E749B335077D /* UITextView+MAGMore.m */; };
-		EA3367D09494EA008041420F395A87F7 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */; };
-		EB18AF053952709017B4DEB6939DC0B9 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F0EC61F14E5464D13F96F604B5C2CEBD /* NSDictionary+MAGMore.h in Headers */ = {isa = PBXBuildFile; fileRef = A3224F126C7E103772726CAB547C10FF /* NSDictionary+MAGMore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5084F236597C156C1E86ED8EE046A7D /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC80616F8673BE77AA47F374A255A0FD /* UIDevice+Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B83794523882F3EA2112C08809BEE34 /* UIDevice+Reachability.m */; };
-		FDB33EC75790DCD822B836E4EE482684 /* UIView+MAGMore.h in Headers */ = {isa = PBXBuildFile; fileRef = A203E30639759280BE3BF1D3C9173031 /* UIView+MAGMore.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FDCCB218655D4FBE7E99696EF61DF1FD /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E64A82732FA32371FE1378D8178A8414 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFDC86750C65DD155EEF1505675B0346 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0AB2E4624E50B315BCDAD9068CE32E3 /* MAGLongTouchDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = 977009FD48B9C1AE6282D61F7FE5D838 /* MAGLongTouchDetector.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE08FE12F78A28066389B9363DEB38FC /* Pods-MAGMatveevReusable_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F24377CBDB2FD92E1851EAFDA51CEB21 /* Pods-MAGMatveevReusable_Tests-dummy.m */; };
+		FFCAF1955B6A91562B43E7AE62728018 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		308D10F7DD40B2D269AA7EDF4F01CFDB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8E178A9EE4752C04D914B2A8AB9111BB;
-			remoteInfo = Masonry;
-		};
 		5AD8737DD0C3CBF42D942FE7FA4362FF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9B081D15CBF0993ED35323812AA7F152;
+			remoteGlobalIDString = 3BBE1E03C401C73CC02DCEB4E2D29EB9;
 			remoteInfo = MAGMatveevReusable;
 		};
 		647F467CBB3AD122EFB27C054A6A2ABC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8E178A9EE4752C04D914B2A8AB9111BB;
+			remoteGlobalIDString = CC21E00DC01257616C6C63ADEE532DFB;
+			remoteInfo = Masonry;
+		};
+		6D0797CCE56B3A3FF7D4F26B27B6D3F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC21E00DC01257616C6C63ADEE532DFB;
 			remoteInfo = Masonry;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0925CC604B01F156279E8952DDE3EDDB /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
-		1100739EDA39DD8E7B773A4DA1919A74 /* NSObject+MAGMore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MAGMore.m"; sourceTree = "<group>"; };
+		0C1E835929F28B94835F6C25D2EBB132 /* UIViewController+MAGMore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MAGMore.m"; sourceTree = "<group>"; };
+		0ECA74418D8B40F1E99588562E6C20B0 /* MAGFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MAGFrame.h; sourceTree = "<group>"; };
 		13FC8E35EDBC629D62166DD797E6DE52 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
-		1B83794523882F3EA2112C08809BEE34 /* UIDevice+Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Reachability.m"; sourceTree = "<group>"; };
+		19BBD61D50F08A7BAA134B2C9F038C82 /* UIView+MAGAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+MAGAnimation.h"; sourceTree = "<group>"; };
+		1A089CA9BC5B96E10D682410B157DB7B /* UITextView+MAGMore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+MAGMore.h"; sourceTree = "<group>"; };
 		1F0183E721D7FD6AF70B4A911C1B1B95 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
-		2DD9A9E2E2227916949997D0E1C7A296 /* MAGCommonDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MAGCommonDefines.h; sourceTree = "<group>"; };
-		2F29AB22250EC619A60AAD4790FADD1D /* UINavigationBar+MAGMore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+MAGMore.m"; sourceTree = "<group>"; };
+		21744F17C013078DF59D516D521316E4 /* UIViewController+MAGMore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MAGMore.h"; sourceTree = "<group>"; };
+		29B7C039ADCF2617E6B0536F1035B9AA /* MAGFreeSpaceTouchDetector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MAGFreeSpaceTouchDetector.m; sourceTree = "<group>"; };
 		2F69E835336330FF06E7268D32D667C9 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		3027ECF3675B7D92CFE998E7807ED8BD /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Masonry.modulemap; sourceTree = "<group>"; };
+		3027ECF3675B7D92CFE998E7807ED8BD /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Masonry.modulemap; sourceTree = "<group>"; };
 		303B58A2959C8EEE96799AD558DDA1D3 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
-		31072CF8A0DB4109C1040E58613A501F /* MAGDrawing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MAGDrawing.h; sourceTree = "<group>"; };
-		320A698EDCEB63FCC4E23E933098B5AB /* NSArray+MAGMore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+MAGMore.h"; sourceTree = "<group>"; };
 		3807B8EAD4336CCB7AD5BBE1193D6A35 /* MAGMatveevReusable.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MAGMatveevReusable.xcconfig; sourceTree = "<group>"; };
 		3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		3AE0831AAA69B668A67B36D3E8E544B9 /* MAGMatveevReusable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MAGMatveevReusable.framework; path = MAGMatveevReusable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AE0831AAA69B668A67B36D3E8E544B9 /* MAGMatveevReusable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MAGMatveevReusable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4041AF5C70633393784413BA7CD625C8 /* MAGMatveevReusable-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MAGMatveevReusable-prefix.pch"; sourceTree = "<group>"; };
-		489A800C2758AA0036496B97B2B7BE26 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		50C828715EA2AD866F8C3D916811525C /* NSObject+MAGMore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+MAGMore.h"; sourceTree = "<group>"; };
-		529DE5BAE9546E342E8918A8EF131DEE /* NSDictionary+MAGMore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MAGMore.m"; sourceTree = "<group>"; };
-		532F33D026666C60ABB991FAAFA71D13 /* UIDevice+Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Reachability.h"; sourceTree = "<group>"; };
+		475392593CC52AE3D87D71E7F587232A /* NSDictionary+MAGMore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MAGMore.h"; sourceTree = "<group>"; };
+		489A800C2758AA0036496B97B2B7BE26 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E884A7E87694D4812DD40720A179EEB /* UINavigationBar+MAGMore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+MAGMore.m"; sourceTree = "<group>"; };
+		530700D8460FC323A2D2A892A0FCF7A5 /* UIView+MAGMore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+MAGMore.h"; sourceTree = "<group>"; };
 		537638D0C329C86D4ED401237F5D895F /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
-		5893EA5A5A2E983BF7AFAE0E114621C6 /* MAGMaterializerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MAGMaterializerView.h; sourceTree = "<group>"; };
+		5A34FD64A87A20C16EC883BA02256C62 /* MAGFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MAGFrame.m; sourceTree = "<group>"; };
 		5A649F9297535214EF97548C9EA9FA33 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		5E4733034813C05D66CB71A979011794 /* Pods-MAGMatveevReusable_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MAGMatveevReusable_Tests-resources.sh"; sourceTree = "<group>"; };
 		611E26C24600589F4729E5EF510272FB /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
 		61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		61C635FA63B207AC12EA2BD25D894A65 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
 		6770B685771CD39360AB0CD2E3A2A6C2 /* MAGMatveevReusable-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MAGMatveevReusable-umbrella.h"; sourceTree = "<group>"; };
+		678C8C01D970334D88201F0137DCD9D0 /* NSArray+MAGMore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSArray+MAGMore.h"; sourceTree = "<group>"; };
 		6840837A17F3DBD60F3EDDC6DD52A768 /* Pods-MAGMatveevReusable_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MAGMatveevReusable_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		6910D3A8190B8CE206FBAF6F8D298F72 /* MAGDrawing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MAGDrawing.m; sourceTree = "<group>"; };
-		6B856D6ADC00F0E42E468AE6E785060F /* UIView+MAGAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+MAGAnimation.h"; sourceTree = "<group>"; };
+		6B55616F44DE25422FA825A74E950E76 /* MAGDragDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MAGDragDetector.h; sourceTree = "<group>"; };
 		6BF35C23E029BF10AE1D3595169AFBCF /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CFE99B116A183DF89B8B7787F9A8AA0 /* MAGDoubleTapDetector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MAGDoubleTapDetector.m; sourceTree = "<group>"; };
 		6D51E33C1D455815DC6536C2AA1B5958 /* Pods-MAGMatveevReusable_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MAGMatveevReusable_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6E4875E63FFAFF84A3CDFE99F28B551E /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
-		7571D299ACB35DE3A852DD7F2EFB43AD /* MAGFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MAGFrame.m; sourceTree = "<group>"; };
-		76C0E535344B7ED368E8BDBB7CFFC60D /* MAGCommonDefines.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MAGCommonDefines.m; sourceTree = "<group>"; };
-		778FA5838B08D615B5A3BF98C0D01359 /* UITextView+MAGMore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITextView+MAGMore.h"; sourceTree = "<group>"; };
-		77EC955989C1F9CF4F1CB4A9E0F9BE75 /* NSArray+MAGMore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MAGMore.m"; sourceTree = "<group>"; };
+		746AB5518E3846A65850743B32BD9043 /* MAGTapDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MAGTapDetector.h; sourceTree = "<group>"; };
 		77F2CF8861113B6F7AAE7EA65C6A7C1B /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
 		79BEFB59B86F59C579FF7594DCF78FEB /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
-		7CF104538CBFC5870B6E3A808C92B0BA /* Pods-MAGMatveevReusable_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MAGMatveevReusable_Tests.modulemap"; sourceTree = "<group>"; };
-		7D237669543486DAE400AA9A5A8185C2 /* Pods_MAGMatveevReusable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MAGMatveevReusable_Tests.framework; path = "Pods-MAGMatveevReusable_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E683CFEF064D395F31E9310203EB5A0 /* UIViewController+MAGMore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MAGMore.m"; sourceTree = "<group>"; };
+		7CF104538CBFC5870B6E3A808C92B0BA /* Pods-MAGMatveevReusable_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MAGMatveevReusable_Tests.modulemap"; sourceTree = "<group>"; };
+		7D237669543486DAE400AA9A5A8185C2 /* Pods_MAGMatveevReusable_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MAGMatveevReusable_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
 		7F44A621BE24B87AEF75DD7193846188 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8064B6A893BF4694D11738165AAE5A65 /* UIDevice+MAGReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+MAGReachability.m"; sourceTree = "<group>"; };
 		88521F0D0CD896EB7EB97EBCD22D91A6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		947C272AB41A90CE0C79E749B335077D /* UITextView+MAGMore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+MAGMore.m"; sourceTree = "<group>"; };
-		95E1C5C7FFE55153C27D25D632AFC817 /* UIViewController+MAGMore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MAGMore.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96DCAB46CA2931B8140F2639F17404AF /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		977009FD48B9C1AE6282D61F7FE5D838 /* MAGLongTouchDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MAGLongTouchDetector.h; sourceTree = "<group>"; };
 		986CB32629319F7F2256662716334944 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
-		9BE47580C3A9121BC4565BDC99EE6019 /* MAGFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MAGFrame.h; sourceTree = "<group>"; };
+		9A6FD2F2D21306A497574392FC745E63 /* NSArray+MAGMore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MAGMore.m"; sourceTree = "<group>"; };
+		9CE996D41BADE8BA309DC3A541CC5595 /* MAGFreeSpaceTouchDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MAGFreeSpaceTouchDetector.h; sourceTree = "<group>"; };
+		9D96A26E1EAE83F0DC7AD69552F69856 /* MAGMaterializerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MAGMaterializerView.h; sourceTree = "<group>"; };
 		A02D339E60E114FCC992372E93245BA1 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
-		A203E30639759280BE3BF1D3C9173031 /* UIView+MAGMore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+MAGMore.h"; sourceTree = "<group>"; };
+		A11B4FFC43D10FB0FE1BCF853ADF9241 /* UIView+MAGAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+MAGAnimation.m"; sourceTree = "<group>"; };
 		A214B89738295B4A4B00EEB1960E8865 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		A3224F126C7E103772726CAB547C10FF /* NSDictionary+MAGMore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+MAGMore.h"; sourceTree = "<group>"; };
+		A870944509836857727C9E836377F3A6 /* NSObject+MAGMore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MAGMore.m"; sourceTree = "<group>"; };
+		AC66771C9541EA64848828013A28991E /* MAGMatveevReusable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MAGMatveevReusable.h; sourceTree = "<group>"; };
 		AD04C760F0EB4FE7B23D85D56145A97F /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		AF4F0FC11EF6741D8EA8FF436D82D04A /* NSObject+MAGMore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+MAGMore.h"; sourceTree = "<group>"; };
+		AF63428BDD927B62021D24DD33E74384 /* MAGDrawing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MAGDrawing.h; sourceTree = "<group>"; };
 		B1C550CDA10D592ABB6A0383A3509F05 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
 		B3D9A3FCE044F805F44733D26C30276A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		B4F909CAA1FFA30FBC974DC59A8BA7AE /* MAGMatveevReusable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MAGMatveevReusable.h; sourceTree = "<group>"; };
 		C0780D6FD624322B4AD9394CD903EAF9 /* Pods-MAGMatveevReusable_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MAGMatveevReusable_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C37B4E664123F8E7F79794A0ECC63BF7 /* Pods-MAGMatveevReusable_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MAGMatveevReusable_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
 		C6D5C71A7A4B3156186EC98A377E8543 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
-		CA50545EC5A4167530C9FE81C9643567 /* MAGMatveevReusable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = MAGMatveevReusable.modulemap; sourceTree = "<group>"; };
+		C71D4CDA1E5460CF00061511 /* MAGCacheCleaner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAGCacheCleaner.h; sourceTree = "<group>"; };
+		C71D4CDB1E5460CF00061511 /* MAGCacheCleaner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAGCacheCleaner.m; sourceTree = "<group>"; };
+		C71D4CDC1E5460CF00061511 /* MAGFreeNameProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAGFreeNameProvider.h; sourceTree = "<group>"; };
+		C71D4CDD1E5460CF00061511 /* MAGFreeNameProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAGFreeNameProvider.m; sourceTree = "<group>"; };
+		CA50545EC5A4167530C9FE81C9643567 /* MAGMatveevReusable.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MAGMatveevReusable.modulemap; sourceTree = "<group>"; };
 		CD9460636A228DA2C8F5EC4A2AB7EBB6 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
 		CDA371E80E14F151A64ED33FF1E1C8DA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDB8B9E6D2DFF75284556DE794F1A37C /* MAGMatveevReusable-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MAGMatveevReusable-dummy.m"; sourceTree = "<group>"; };
-		D12AC37865CBD6C808CDE17B5033AA47 /* MAGMaterializerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MAGMaterializerView.m; sourceTree = "<group>"; };
+		D2F319427FB4C99E8EBBF2DC1FF2ABB6 /* MAGDoubleTapDetector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MAGDoubleTapDetector.h; sourceTree = "<group>"; };
+		D6FEDA8263E20997E62280EBD05398CC /* MAGDrawing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MAGDrawing.m; sourceTree = "<group>"; };
+		D9075B1F6C7FA415DA575AB5B5D9B768 /* MAGTapDetector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MAGTapDetector.m; sourceTree = "<group>"; };
+		DC3EE9406750A424E2FED237F80C28EA /* MAGDragDetector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MAGDragDetector.m; sourceTree = "<group>"; };
+		DC9403EAF387F93E7815610C8DF9737B /* UITextView+MAGMore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITextView+MAGMore.m"; sourceTree = "<group>"; };
+		DCD1641A650D9DF06AE0927C8AFFA150 /* MAGMaterializerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MAGMaterializerView.m; sourceTree = "<group>"; };
+		DD71F2175397CC470C38CCD35FFA0E64 /* MAGCommonDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MAGCommonDefines.h; sourceTree = "<group>"; };
+		E2B2202E902A855D4C98C235466F88C0 /* MAGLongTouchDetector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MAGLongTouchDetector.m; sourceTree = "<group>"; };
 		E4BC22FF442BDC0A958738D11DCC5C2A /* Pods-MAGMatveevReusable_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MAGMatveevReusable_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		ECBBB506D4D551AB1A637EE3145A459E /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
-		ED3ACC881CCB4D5C4401A2C6D1ADCE71 /* UINavigationBar+MAGMore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+MAGMore.h"; sourceTree = "<group>"; };
 		ED4551279446B5E21BD91861722FCA2E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F24377CBDB2FD92E1851EAFDA51CEB21 /* Pods-MAGMatveevReusable_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MAGMatveevReusable_Tests-dummy.m"; sourceTree = "<group>"; };
+		F276A0934C1D83884798ABFD554B2834 /* UIDevice+MAGReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIDevice+MAGReachability.h"; sourceTree = "<group>"; };
 		F34C74D6A9905D2CB40ABFFC1AA0F85E /* Pods-MAGMatveevReusable_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MAGMatveevReusable_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F35F2D8A41FB46404EFA09226E88CF25 /* NSDictionary+MAGMore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+MAGMore.m"; sourceTree = "<group>"; };
+		F3C3BD70FE8E4C4ECD6BB62D477D1F66 /* MAGCommonDefines.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MAGCommonDefines.m; sourceTree = "<group>"; };
+		F52332DB56B77CEFAC03867963B39981 /* UIView+MAGMore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+MAGMore.m"; sourceTree = "<group>"; };
 		F8187F5CAD09C6C6B2B54C65B4A807C9 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		FB837D0207C28DED849313537CF328DF /* UIView+MAGAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+MAGAnimation.m"; sourceTree = "<group>"; };
-		FD734D045B5B9E7A9EA3BE3F85180761 /* UIView+MAGMore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+MAGMore.m"; sourceTree = "<group>"; };
+		FD0E353851F9F309D2D1FE007F3F22D7 /* UINavigationBar+MAGMore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+MAGMore.h"; sourceTree = "<group>"; };
 		FE937DE71A73D4B7779FF934EC2373E2 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
 		FF217FE4E512E3883BAD867868CB42D9 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
 		FF3818136FED67BD32E3A7FAEDE4F68F /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		718C68A6C88C7CBCA5B8B1A9E70DFDFB /* Frameworks */ = {
+		54FFFC3DF6D4EDDF3B3B971CB078B1F6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D19E486B5EC869073D8FE0150218B2ED /* Foundation.framework in Frameworks */,
-				DA15B591860CF25F8E8D00A068D3DE79 /* Masonry.framework in Frameworks */,
+				A22EDBF31CB082D00753AAA15447B21F /* Foundation.framework in Frameworks */,
+				2D917C503657B71DC35069096534EC45 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8694A854B7FA21617CA1D0B3C91278CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77348E9281DE590FC9C4A9C35E9878F3 /* Foundation.framework in Frameworks */,
+				01BAF10A0F9685373A9BC7D8C87030B7 /* Masonry.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,15 +232,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E43AD5A25BCEBD88DDBD5EA351169E49 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F9AD7B981BBDA4026939E55CA5C2A48E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				30CABA58D323075A09D665626458AC18 /* Foundation.framework in Frameworks */,
-				48EA5FAFD6232C40C77D3B8474C1493B /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,15 +246,6 @@
 				7D237669543486DAE400AA9A5A8185C2 /* Pods_MAGMatveevReusable_Tests.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		442279EBBC10B1BFC7C25ADF0EFCBA84 /* MAGMatveevReusable */ = {
-			isa = PBXGroup;
-			children = (
-				F4B60C4788F82F7D6D8C758F1A79AF7A /* Classes */,
-			);
-			name = MAGMatveevReusable;
-			path = MAGMatveevReusable;
 			sourceTree = "<group>";
 		};
 		5733D837E696837343AE85FE42FBA322 /* Pods-MAGMatveevReusable_Tests */ = {
@@ -259,11 +278,19 @@
 		6960896848D1F099658FC7D4A406F5EC /* MAGMatveevReusable */ = {
 			isa = PBXGroup;
 			children = (
-				442279EBBC10B1BFC7C25ADF0EFCBA84 /* MAGMatveevReusable */,
+				6DCE51A03521619A0E15751E4BF02B60 /* MAGMatveevReusable */,
 				F15D6AC62422B2903F81AE610FD240BA /* Support Files */,
 			);
 			name = MAGMatveevReusable;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		6DCE51A03521619A0E15751E4BF02B60 /* MAGMatveevReusable */ = {
+			isa = PBXGroup;
+			children = (
+				AC7AA31B3E6AB808D8CAC128524644F4 /* Classes */,
+			);
+			path = MAGMatveevReusable;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -284,6 +311,23 @@
 				6960896848D1F099658FC7D4A406F5EC /* MAGMatveevReusable */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9DA8546B4EDEB0BCBFC4B7C72689864E /* Detectors */ = {
+			isa = PBXGroup;
+			children = (
+				D2F319427FB4C99E8EBBF2DC1FF2ABB6 /* MAGDoubleTapDetector.h */,
+				6CFE99B116A183DF89B8B7787F9A8AA0 /* MAGDoubleTapDetector.m */,
+				6B55616F44DE25422FA825A74E950E76 /* MAGDragDetector.h */,
+				DC3EE9406750A424E2FED237F80C28EA /* MAGDragDetector.m */,
+				9CE996D41BADE8BA309DC3A541CC5595 /* MAGFreeSpaceTouchDetector.h */,
+				29B7C039ADCF2617E6B0536F1035B9AA /* MAGFreeSpaceTouchDetector.m */,
+				977009FD48B9C1AE6282D61F7FE5D838 /* MAGLongTouchDetector.h */,
+				E2B2202E902A855D4C98C235466F88C0 /* MAGLongTouchDetector.m */,
+				746AB5518E3846A65850743B32BD9043 /* MAGTapDetector.h */,
+				D9075B1F6C7FA415DA575AB5B5D9B768 /* MAGTapDetector.m */,
+			);
+			path = Detectors;
 			sourceTree = "<group>";
 		};
 		A2A20986957FCCEF3865AFC2DAE207A8 /* Masonry */ = {
@@ -316,7 +360,6 @@
 				3980E01C213ECEDEABAC38C1CFD3946D /* ViewController+MASAdditions.m */,
 				AB2D74BCA437C31F2B7B0E2905262257 /* Support Files */,
 			);
-			name = Masonry;
 			path = Masonry;
 			sourceTree = "<group>";
 		};
@@ -332,6 +375,45 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		AC7AA31B3E6AB808D8CAC128524644F4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AC66771C9541EA64848828013A28991E /* MAGMatveevReusable.h */,
+				C71D4CDA1E5460CF00061511 /* MAGCacheCleaner.h */,
+				C71D4CDB1E5460CF00061511 /* MAGCacheCleaner.m */,
+				C71D4CDC1E5460CF00061511 /* MAGFreeNameProvider.h */,
+				C71D4CDD1E5460CF00061511 /* MAGFreeNameProvider.m */,
+				DD71F2175397CC470C38CCD35FFA0E64 /* MAGCommonDefines.h */,
+				F3C3BD70FE8E4C4ECD6BB62D477D1F66 /* MAGCommonDefines.m */,
+				AF63428BDD927B62021D24DD33E74384 /* MAGDrawing.h */,
+				D6FEDA8263E20997E62280EBD05398CC /* MAGDrawing.m */,
+				0ECA74418D8B40F1E99588562E6C20B0 /* MAGFrame.h */,
+				5A34FD64A87A20C16EC883BA02256C62 /* MAGFrame.m */,
+				9D96A26E1EAE83F0DC7AD69552F69856 /* MAGMaterializerView.h */,
+				DCD1641A650D9DF06AE0927C8AFFA150 /* MAGMaterializerView.m */,
+				678C8C01D970334D88201F0137DCD9D0 /* NSArray+MAGMore.h */,
+				9A6FD2F2D21306A497574392FC745E63 /* NSArray+MAGMore.m */,
+				475392593CC52AE3D87D71E7F587232A /* NSDictionary+MAGMore.h */,
+				F35F2D8A41FB46404EFA09226E88CF25 /* NSDictionary+MAGMore.m */,
+				AF4F0FC11EF6741D8EA8FF436D82D04A /* NSObject+MAGMore.h */,
+				A870944509836857727C9E836377F3A6 /* NSObject+MAGMore.m */,
+				F276A0934C1D83884798ABFD554B2834 /* UIDevice+MAGReachability.h */,
+				8064B6A893BF4694D11738165AAE5A65 /* UIDevice+MAGReachability.m */,
+				FD0E353851F9F309D2D1FE007F3F22D7 /* UINavigationBar+MAGMore.h */,
+				4E884A7E87694D4812DD40720A179EEB /* UINavigationBar+MAGMore.m */,
+				1A089CA9BC5B96E10D682410B157DB7B /* UITextView+MAGMore.h */,
+				DC9403EAF387F93E7815610C8DF9737B /* UITextView+MAGMore.m */,
+				19BBD61D50F08A7BAA134B2C9F038C82 /* UIView+MAGAnimation.h */,
+				A11B4FFC43D10FB0FE1BCF853ADF9241 /* UIView+MAGAnimation.m */,
+				530700D8460FC323A2D2A892A0FCF7A5 /* UIView+MAGMore.h */,
+				F52332DB56B77CEFAC03867963B39981 /* UIView+MAGMore.m */,
+				21744F17C013078DF59D516D521316E4 /* UIViewController+MAGMore.h */,
+				0C1E835929F28B94835F6C25D2EBB132 /* UIViewController+MAGMore.m */,
+				9DA8546B4EDEB0BCBFC4B7C72689864E /* Detectors */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		B4F0BA4A38BC9D168D667B378E89C6D9 /* iOS */ = {
@@ -365,41 +447,6 @@
 			path = "Example/Pods/Target Support Files/MAGMatveevReusable";
 			sourceTree = "<group>";
 		};
-		F4B60C4788F82F7D6D8C758F1A79AF7A /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				2DD9A9E2E2227916949997D0E1C7A296 /* MAGCommonDefines.h */,
-				76C0E535344B7ED368E8BDBB7CFFC60D /* MAGCommonDefines.m */,
-				31072CF8A0DB4109C1040E58613A501F /* MAGDrawing.h */,
-				6910D3A8190B8CE206FBAF6F8D298F72 /* MAGDrawing.m */,
-				9BE47580C3A9121BC4565BDC99EE6019 /* MAGFrame.h */,
-				7571D299ACB35DE3A852DD7F2EFB43AD /* MAGFrame.m */,
-				5893EA5A5A2E983BF7AFAE0E114621C6 /* MAGMaterializerView.h */,
-				D12AC37865CBD6C808CDE17B5033AA47 /* MAGMaterializerView.m */,
-				B4F909CAA1FFA30FBC974DC59A8BA7AE /* MAGMatveevReusable.h */,
-				320A698EDCEB63FCC4E23E933098B5AB /* NSArray+MAGMore.h */,
-				77EC955989C1F9CF4F1CB4A9E0F9BE75 /* NSArray+MAGMore.m */,
-				A3224F126C7E103772726CAB547C10FF /* NSDictionary+MAGMore.h */,
-				529DE5BAE9546E342E8918A8EF131DEE /* NSDictionary+MAGMore.m */,
-				50C828715EA2AD866F8C3D916811525C /* NSObject+MAGMore.h */,
-				1100739EDA39DD8E7B773A4DA1919A74 /* NSObject+MAGMore.m */,
-				532F33D026666C60ABB991FAAFA71D13 /* UIDevice+Reachability.h */,
-				1B83794523882F3EA2112C08809BEE34 /* UIDevice+Reachability.m */,
-				ED3ACC881CCB4D5C4401A2C6D1ADCE71 /* UINavigationBar+MAGMore.h */,
-				2F29AB22250EC619A60AAD4790FADD1D /* UINavigationBar+MAGMore.m */,
-				778FA5838B08D615B5A3BF98C0D01359 /* UITextView+MAGMore.h */,
-				947C272AB41A90CE0C79E749B335077D /* UITextView+MAGMore.m */,
-				6B856D6ADC00F0E42E468AE6E785060F /* UIView+MAGAnimation.h */,
-				FB837D0207C28DED849313537CF328DF /* UIView+MAGAnimation.m */,
-				A203E30639759280BE3BF1D3C9173031 /* UIView+MAGMore.h */,
-				FD734D045B5B9E7A9EA3BE3F85180761 /* UIView+MAGMore.m */,
-				95E1C5C7FFE55153C27D25D632AFC817 /* UIViewController+MAGMore.h */,
-				7E683CFEF064D395F31E9310203EB5A0 /* UIViewController+MAGMore.m */,
-			);
-			name = Classes;
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		F94E0C6C8794F5B6ECAA036901F58207 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -411,48 +458,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0DC84A8A3EDC1E98F808D9727D4C6F1E /* Headers */ = {
+		33E022161758E190E20FFC614BA9B905 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AEEA48BEA40640B091D2885F982A409 /* MASCompositeConstraint.h in Headers */,
-				F5084F236597C156C1E86ED8EE046A7D /* MASConstraint+Private.h in Headers */,
-				FDCCB218655D4FBE7E99696EF61DF1FD /* MASConstraint.h in Headers */,
-				EB18AF053952709017B4DEB6939DC0B9 /* MASConstraintMaker.h in Headers */,
-				D60314495C28DB07FA63F5AB411C7102 /* MASLayoutConstraint.h in Headers */,
-				3DDD2BB7F337C8B0953F58865F06ADA8 /* Masonry-umbrella.h in Headers */,
-				49D827EF3DB25FC25AF483BDE63F2383 /* Masonry.h in Headers */,
-				8FC370862D02DD0525E80E53DCD0BD64 /* MASUtilities.h in Headers */,
-				4E95D07E48182CBE33F455A01E5B2E74 /* MASViewAttribute.h in Headers */,
-				0AF62A23834C5DC2B37F3A238C30A9E6 /* MASViewConstraint.h in Headers */,
-				085E7EBBFA44787F50BD226E59EAE1E7 /* NSArray+MASAdditions.h in Headers */,
-				DCEFDEA70DF04165F277CE2416DADB3F /* NSArray+MASShorthandAdditions.h in Headers */,
-				87839E77B880DCA07C97804469BF1D77 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
-				499DA45E219507CEF5D2E8BDDBC29427 /* View+MASAdditions.h in Headers */,
-				4825707A655178F6783B5031FEEF5148 /* View+MASShorthandAdditions.h in Headers */,
-				C37C10A3EC10DF2419CD8EE03E9EB7D5 /* ViewController+MASAdditions.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C758A7FC487CB7D904F8A704076BE832 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				107DA3174C7EFB5DA5E116842D40B371 /* MAGCommonDefines.h in Headers */,
-				3FDE9D5FA951DE797EB4E2C3544F9B2C /* MAGDrawing.h in Headers */,
-				261823C2EF94E6E4EA0090E29BE746C0 /* MAGFrame.h in Headers */,
-				7FAAEC64A50C8A5891FD833C78E5D756 /* MAGMaterializerView.h in Headers */,
-				37A7BF73115BE67C7237039F15D0987B /* MAGMatveevReusable-umbrella.h in Headers */,
-				53B524460E87759233545359AA2026B8 /* MAGMatveevReusable.h in Headers */,
-				5344256ABE82BA8470E6307739729B1A /* NSArray+MAGMore.h in Headers */,
-				F0EC61F14E5464D13F96F604B5C2CEBD /* NSDictionary+MAGMore.h in Headers */,
-				B051B634BD7B37366475DD95A6393DD9 /* NSObject+MAGMore.h in Headers */,
-				5D371529CBCB2B9605B00B07088CA790 /* UIDevice+Reachability.h in Headers */,
-				E7CC3CC20525D3E6B7321C7A95DA0020 /* UINavigationBar+MAGMore.h in Headers */,
-				BA08C6A67F5AA383D74A0107BB1CE541 /* UITextView+MAGMore.h in Headers */,
-				9D67D12D97803C3DB2CFBF05B21C2D06 /* UIView+MAGAnimation.h in Headers */,
-				FDB33EC75790DCD822B836E4EE482684 /* UIView+MAGMore.h in Headers */,
-				0EA9BAE0FB2C86371AFECC6B3CE8150F /* UIViewController+MAGMore.h in Headers */,
+				5E0AF30906D0B288041AEB732E02C270 /* MASCompositeConstraint.h in Headers */,
+				DFE4E64FFF4F435050CAEADA6BE316FF /* MASConstraint+Private.h in Headers */,
+				0F5925A3BABCBDCE8584832C14B7924A /* MASConstraint.h in Headers */,
+				E64A82732FA32371FE1378D8178A8414 /* MASConstraintMaker.h in Headers */,
+				BB769CEFC824604A221D7C7FB45DA118 /* MASLayoutConstraint.h in Headers */,
+				0FA00AD0D599AB061567B6D812961AFC /* Masonry-umbrella.h in Headers */,
+				02C706335473712A6498A862BA270ADA /* Masonry.h in Headers */,
+				0D504F19E732EC62A4159F3C23205BA1 /* MASUtilities.h in Headers */,
+				7D293C49CBB76E15AD97BE8E251AED40 /* MASViewAttribute.h in Headers */,
+				40B3EFD89BC37598F9E824454B11DEE4 /* MASViewConstraint.h in Headers */,
+				EFDC86750C65DD155EEF1505675B0346 /* NSArray+MASAdditions.h in Headers */,
+				DCC0A8431479F60FAD9D610A93D8EB8F /* NSArray+MASShorthandAdditions.h in Headers */,
+				9F4E22951892135A65EC75BE58F9FE9A /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				6503629013440FEF4D29E15A0CE27881 /* View+MASAdditions.h in Headers */,
+				C7B12C588AF45546C019B0A6D73AEA31 /* View+MASShorthandAdditions.h in Headers */,
+				3082E131C067C4C0CF87A3051EB75E48 /* ViewController+MASAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -464,16 +489,63 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EA6E0793BF161961D9FD89995DE33649 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EBE5109E25D97F9CCE3ACD534FE2FA1 /* MAGCommonDefines.h in Headers */,
+				5404E2420EE8BB700BE8A56149759972 /* MAGDoubleTapDetector.h in Headers */,
+				BC737ABDEA2F69F59A25BDAD56C552FE /* MAGDragDetector.h in Headers */,
+				2D8449654F425CC313936AEE95FE9995 /* MAGDrawing.h in Headers */,
+				8C272ED0C556633B95C1D012A7208F6E /* MAGFrame.h in Headers */,
+				3CE465C208EA8BE77DFEEE31D159472B /* MAGFreeSpaceTouchDetector.h in Headers */,
+				F0AB2E4624E50B315BCDAD9068CE32E3 /* MAGLongTouchDetector.h in Headers */,
+				77065FB8B24EED7A20B57DC60CB9438C /* MAGMaterializerView.h in Headers */,
+				5BFDB92E2A4848AA915B6785AABD32C0 /* MAGMatveevReusable-umbrella.h in Headers */,
+				2F9220F31A5854EE8348A7D65D05FA1E /* MAGMatveevReusable.h in Headers */,
+				9FB83F3F330F9DD7E19BD651042AC6B6 /* MAGTapDetector.h in Headers */,
+				884A2997B7DC538816675EFDA9A540FC /* NSArray+MAGMore.h in Headers */,
+				A33CAB6352C0B0AECE09DA4C2AA9BBE3 /* NSDictionary+MAGMore.h in Headers */,
+				C8DB0EBB4E60ABF943B8A135668944C3 /* NSObject+MAGMore.h in Headers */,
+				9860A8BD3DED781F8A33DEE7484E4360 /* UIDevice+MAGReachability.h in Headers */,
+				75BA5B2AF7A3177F65A4FB241A6C82BE /* UINavigationBar+MAGMore.h in Headers */,
+				B6B44A420587D1CE684F087F29F0CC88 /* UITextView+MAGMore.h in Headers */,
+				879018519194E3B28AD39D62D41AF5F0 /* UIView+MAGAnimation.h in Headers */,
+				C71D4CE01E5460CF00061511 /* MAGFreeNameProvider.h in Headers */,
+				49FE257AA815088341B5A7F75FFD7D20 /* UIView+MAGMore.h in Headers */,
+				DCB7954FA1BEC8722DAA92C8BDB40532 /* UIViewController+MAGMore.h in Headers */,
+				C71D4CDE1E5460CF00061511 /* MAGCacheCleaner.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		8E178A9EE4752C04D914B2A8AB9111BB /* Masonry */ = {
+		3BBE1E03C401C73CC02DCEB4E2D29EB9 /* MAGMatveevReusable */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9BD029E3162B9A011086ABA1924F5E10 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildConfigurationList = 8C277B9BE407720F1A420632ED274C1F /* Build configuration list for PBXNativeTarget "MAGMatveevReusable" */;
 			buildPhases = (
-				6662E52012D00EBC0082BB316C85B193 /* Sources */,
-				F9AD7B981BBDA4026939E55CA5C2A48E /* Frameworks */,
-				0DC84A8A3EDC1E98F808D9727D4C6F1E /* Headers */,
+				CED911534B8443B0BC2EFC3FA343CAE0 /* Sources */,
+				8694A854B7FA21617CA1D0B3C91278CE /* Frameworks */,
+				EA6E0793BF161961D9FD89995DE33649 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3330291A27C372EFF6066EE304D6EB2E /* PBXTargetDependency */,
+			);
+			name = MAGMatveevReusable;
+			productName = MAGMatveevReusable;
+			productReference = 3AE0831AAA69B668A67B36D3E8E544B9 /* MAGMatveevReusable.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CC21E00DC01257616C6C63ADEE532DFB /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F43DEDB100E216276AB1634BACBCB1E /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				5683DAA84202F1A7FD8D0A8E16A0F228 /* Sources */,
+				54FFFC3DF6D4EDDF3B3B971CB078B1F6 /* Frameworks */,
+				33E022161758E190E20FFC614BA9B905 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -482,24 +554,6 @@
 			name = Masonry;
 			productName = Masonry;
 			productReference = 489A800C2758AA0036496B97B2B7BE26 /* Masonry.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		9B081D15CBF0993ED35323812AA7F152 /* MAGMatveevReusable */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D5A28871EFFE11F9FEE68E2CD9A536AB /* Build configuration list for PBXNativeTarget "MAGMatveevReusable" */;
-			buildPhases = (
-				6C8B240ABE443505D88F6A4362179608 /* Sources */,
-				718C68A6C88C7CBCA5B8B1A9E70DFDFB /* Frameworks */,
-				C758A7FC487CB7D904F8A704076BE832 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				895575F6152CA410BDD4D3904731774B /* PBXTargetDependency */,
-			);
-			name = MAGMatveevReusable;
-			productName = MAGMatveevReusable;
-			productReference = 3AE0831AAA69B668A67B36D3E8E544B9 /* MAGMatveevReusable.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F103B79C5CE9BC0F8B466FABEB13C4AB /* Pods-MAGMatveevReusable_Tests */ = {
@@ -542,50 +596,29 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9B081D15CBF0993ED35323812AA7F152 /* MAGMatveevReusable */,
-				8E178A9EE4752C04D914B2A8AB9111BB /* Masonry */,
+				3BBE1E03C401C73CC02DCEB4E2D29EB9 /* MAGMatveevReusable */,
+				CC21E00DC01257616C6C63ADEE532DFB /* Masonry */,
 				F103B79C5CE9BC0F8B466FABEB13C4AB /* Pods-MAGMatveevReusable_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6662E52012D00EBC0082BB316C85B193 /* Sources */ = {
+		5683DAA84202F1A7FD8D0A8E16A0F228 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B188A782E770A53F49B5B937D7E5B7A /* MASCompositeConstraint.m in Sources */,
-				675BFF1F9E03723F1626990BF3D277A9 /* MASConstraint.m in Sources */,
-				0C7C668D51D3F0588C12FA19A69E0DFE /* MASConstraintMaker.m in Sources */,
-				EA3367D09494EA008041420F395A87F7 /* MASLayoutConstraint.m in Sources */,
-				BE72163BBF4A1DFF0D52DA2B2D7D2049 /* Masonry-dummy.m in Sources */,
-				2FA210C084B6C673264CA1DCFDC0078A /* MASViewAttribute.m in Sources */,
-				08FD83C15736AC0BEF1D210CB26DF77C /* MASViewConstraint.m in Sources */,
-				D6EF91D72D903561FAB4269798BEEF0F /* NSArray+MASAdditions.m in Sources */,
-				6F9377000E2C9C3A8DC82484A0ECB427 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				20BD60D4F925A23395E528BFC0E8029B /* View+MASAdditions.m in Sources */,
-				C909DCAF560F43578C06BB1DBCDC9776 /* ViewController+MASAdditions.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6C8B240ABE443505D88F6A4362179608 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				193A66AE7E91D063DB8AFBE63F6D24E8 /* MAGCommonDefines.m in Sources */,
-				1190B21A1EC7C8FF9EFF4502EB936434 /* MAGDrawing.m in Sources */,
-				68287A34102A5123B4B91B026C69B20E /* MAGFrame.m in Sources */,
-				B1F6C5EAC3E1BFE3D69B82EF578B8C56 /* MAGMaterializerView.m in Sources */,
-				DD72AE7224BD266E57AEBD7B5DB1E05A /* MAGMatveevReusable-dummy.m in Sources */,
-				1FCD61EA838B3E93EF209E84C019326C /* NSArray+MAGMore.m in Sources */,
-				39AD26099112BC5811B66F16D17718BD /* NSDictionary+MAGMore.m in Sources */,
-				AEDED9585ECE53FD0EE75606AABF99D0 /* NSObject+MAGMore.m in Sources */,
-				FC80616F8673BE77AA47F374A255A0FD /* UIDevice+Reachability.m in Sources */,
-				DEC379ADC05B51E98C54267FC701CF30 /* UINavigationBar+MAGMore.m in Sources */,
-				E9AD0C538F5D394CE14CF5BC79367495 /* UITextView+MAGMore.m in Sources */,
-				93B7726D711F3E385F161BF7F061D0D6 /* UIView+MAGAnimation.m in Sources */,
-				438F34D25C3FBC70FD308FA2AF9A00E1 /* UIView+MAGMore.m in Sources */,
-				94E325466B356477D2B11B8559861772 /* UIViewController+MAGMore.m in Sources */,
+				1AB95C10505555F9CCA0385B0233CA8A /* MASCompositeConstraint.m in Sources */,
+				788728A7032712DF56F8A71DEF2A910F /* MASConstraint.m in Sources */,
+				4A2ACB9C702D7A17C723A36912C167A6 /* MASConstraintMaker.m in Sources */,
+				4968A96BA7CB7947C4BA0813907438B8 /* MASLayoutConstraint.m in Sources */,
+				37AEE2550EA90BCEB24A55AB4344A478 /* Masonry-dummy.m in Sources */,
+				B855EA1CB8935CA940D088DFF7FBF176 /* MASViewAttribute.m in Sources */,
+				187FD498708BDC7C3063B384C7DE3F46 /* MASViewConstraint.m in Sources */,
+				98E4ED47AD8C6D1FFC6ACCA8E7F6304F /* NSArray+MASAdditions.m in Sources */,
+				4ECC2E507CCEF198EAE26CA960D6968C /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				C2F7696449AD6B80CE54A6562522EDE1 /* View+MASAdditions.m in Sources */,
+				FFCAF1955B6A91562B43E7AE62728018 /* ViewController+MASAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -597,61 +630,58 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CED911534B8443B0BC2EFC3FA343CAE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4748BB8A9F0EDC820003B7B5854F618C /* MAGCommonDefines.m in Sources */,
+				24F4BD8B5F6A75360E2932ADE7B8FCB7 /* MAGDoubleTapDetector.m in Sources */,
+				DF0655527E5D2BC1A01AA0731E50822D /* MAGDragDetector.m in Sources */,
+				2444A306EC31DB95DA83C71FA749F23B /* MAGDrawing.m in Sources */,
+				67D73F2F0BAB5B4182583D836F58D483 /* MAGFrame.m in Sources */,
+				705094057E1F6A8BB1E9B012534BA5D4 /* MAGFreeSpaceTouchDetector.m in Sources */,
+				731390EB002DDB83E3E3B8DBDE3D33E9 /* MAGLongTouchDetector.m in Sources */,
+				1EB7FF045EA6B8D95CE4F82B0A546193 /* MAGMaterializerView.m in Sources */,
+				8DFBE64D89EEBE8B1646DCBE4EF02F2A /* MAGMatveevReusable-dummy.m in Sources */,
+				460875A358D865AF8D4EC5FB7E6ACE7A /* MAGTapDetector.m in Sources */,
+				C71D4CE11E5460CF00061511 /* MAGFreeNameProvider.m in Sources */,
+				A73D4D97C4D431EAC7C0E73247A945C5 /* NSArray+MAGMore.m in Sources */,
+				24F049776CC34CA7E736DD92A4CACF75 /* NSDictionary+MAGMore.m in Sources */,
+				1CC874803B5F51C12A10A744290584BD /* NSObject+MAGMore.m in Sources */,
+				AA92576069BEADA9EA2C4711F5BC3CB3 /* UIDevice+MAGReachability.m in Sources */,
+				BABCFD1A6120035554D89D03494E74B4 /* UINavigationBar+MAGMore.m in Sources */,
+				DA438E54FD142308B56B7D9ECDADE01E /* UITextView+MAGMore.m in Sources */,
+				AC82DD9E06C8EB4085CF244E3434B986 /* UIView+MAGAnimation.m in Sources */,
+				4C709FFACB83C2423A87B65A1FDFE1AA /* UIView+MAGMore.m in Sources */,
+				75833C49FB1E07B7DECDBF9EF221EA36 /* UIViewController+MAGMore.m in Sources */,
+				C71D4CDF1E5460CF00061511 /* MAGCacheCleaner.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		3330291A27C372EFF6066EE304D6EB2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = CC21E00DC01257616C6C63ADEE532DFB /* Masonry */;
+			targetProxy = 6D0797CCE56B3A3FF7D4F26B27B6D3F2 /* PBXContainerItemProxy */;
+		};
 		4F3F0A6348B83A1AE03F12FAB8D52395 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;
-			target = 8E178A9EE4752C04D914B2A8AB9111BB /* Masonry */;
+			target = CC21E00DC01257616C6C63ADEE532DFB /* Masonry */;
 			targetProxy = 647F467CBB3AD122EFB27C054A6A2ABC /* PBXContainerItemProxy */;
-		};
-		895575F6152CA410BDD4D3904731774B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Masonry;
-			target = 8E178A9EE4752C04D914B2A8AB9111BB /* Masonry */;
-			targetProxy = 308D10F7DD40B2D269AA7EDF4F01CFDB /* PBXContainerItemProxy */;
 		};
 		8CD91581C6F893259387E454AF71A6F2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MAGMatveevReusable;
-			target = 9B081D15CBF0993ED35323812AA7F152 /* MAGMatveevReusable */;
+			target = 3BBE1E03C401C73CC02DCEB4E2D29EB9 /* MAGMatveevReusable */;
 			targetProxy = 5AD8737DD0C3CBF42D942FE7FA4362FF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		452B00D82890AB9F6ED8D2828CC8A89F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3807B8EAD4336CCB7AD5BBE1193D6A35 /* MAGMatveevReusable.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MAGMatveevReusable/MAGMatveevReusable-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MAGMatveevReusable/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MAGMatveevReusable/MAGMatveevReusable.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = MAGMatveevReusable;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		5F9AF8CEEFACA8123CF7C408D5B93486 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F34C74D6A9905D2CB40ABFFC1AA0F85E /* Pods-MAGMatveevReusable_Tests.release.xcconfig */;
@@ -687,36 +717,36 @@
 			};
 			name = Release;
 		};
-		639BBDD054DB00DC5D5A4B47D0DA3CED /* Debug */ = {
+		8AB9A59FE6313D6F2D30DDBE087552EF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3807B8EAD4336CCB7AD5BBE1193D6A35 /* MAGMatveevReusable.xcconfig */;
+			baseConfigurationReference = 61C635FA63B207AC12EA2BD25D894A65 /* Masonry.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MAGMatveevReusable/MAGMatveevReusable-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MAGMatveevReusable/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MAGMatveevReusable/MAGMatveevReusable.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = MAGMatveevReusable;
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Masonry;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -802,7 +832,7 @@
 			};
 			name = Debug;
 		};
-		BA626B1A7F2EA8C5ED1C775BB5936B20 /* Release */ = {
+		A91B8C9AD9A8FE4B12FF16FF4C480288 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 61C635FA63B207AC12EA2BD25D894A65 /* Masonry.xcconfig */;
 			buildSettings = {
@@ -810,7 +840,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -823,7 +853,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = Masonry;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -831,7 +861,38 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
+		};
+		C788B1DF3635409CF55D2F8554AAB1C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3807B8EAD4336CCB7AD5BBE1193D6A35 /* MAGMatveevReusable.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MAGMatveevReusable/MAGMatveevReusable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MAGMatveevReusable/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MAGMatveevReusable/MAGMatveevReusable.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MAGMatveevReusable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		CFF547E03FAADF9C8916E2C64DED0D73 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -868,36 +929,36 @@
 			};
 			name = Debug;
 		};
-		E1BCCEF60AFEEE207495FDE343987661 /* Debug */ = {
+		D7B1E0A9311BD562A8FB4F3FC6C2905F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61C635FA63B207AC12EA2BD25D894A65 /* Masonry.xcconfig */;
+			baseConfigurationReference = 3807B8EAD4336CCB7AD5BBE1193D6A35 /* MAGMatveevReusable.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MAGMatveevReusable/MAGMatveevReusable-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MAGMatveevReusable/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = Masonry;
+				MODULEMAP_FILE = "Target Support Files/MAGMatveevReusable/MAGMatveevReusable.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MAGMatveevReusable;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -911,6 +972,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		7F43DEDB100E216276AB1634BACBCB1E /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A91B8C9AD9A8FE4B12FF16FF4C480288 /* Debug */,
+				8AB9A59FE6313D6F2D30DDBE087552EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		89E8D9A6617997357E822848C467933D /* Build configuration list for PBXNativeTarget "Pods-MAGMatveevReusable_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -920,20 +990,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9BD029E3162B9A011086ABA1924F5E10 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+		8C277B9BE407720F1A420632ED274C1F /* Build configuration list for PBXNativeTarget "MAGMatveevReusable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E1BCCEF60AFEEE207495FDE343987661 /* Debug */,
-				BA626B1A7F2EA8C5ED1C775BB5936B20 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D5A28871EFFE11F9FEE68E2CD9A536AB /* Build configuration list for PBXNativeTarget "MAGMatveevReusable" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				639BBDD054DB00DC5D5A4B47D0DA3CED /* Debug */,
-				452B00D82890AB9F6ED8D2828CC8A89F /* Release */,
+				C788B1DF3635409CF55D2F8554AAB1C8 /* Debug */,
+				D7B1E0A9311BD562A8FB4F3FC6C2905F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

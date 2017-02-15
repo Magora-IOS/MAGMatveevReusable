@@ -10,6 +10,11 @@
 #endif
 #endif
 
+#import "MAGDoubleTapDetector.h"
+#import "MAGDragDetector.h"
+#import "MAGFreeSpaceTouchDetector.h"
+#import "MAGLongTouchDetector.h"
+#import "MAGTapDetector.h"
 #import "MAGCommonDefines.h"
 #import "MAGDrawing.h"
 #import "MAGFrame.h"
