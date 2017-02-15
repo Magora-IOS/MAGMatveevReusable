@@ -7,8 +7,10 @@
 
 
 
+#import <MAGMatveevReusable/MAGCommonDefines.h>
+#import <MAGMatveevReusable/UIView+MAGMore.h>
+
 #import "MAGDragDetector.h"
-#import "MAGCommonDefines.h"
 
 @interface MAGDragDetector () <UIGestureRecognizerDelegate> {
     UILongPressGestureRecognizer *_touchDownRecognizer;
@@ -16,7 +18,7 @@
     
     CGPoint _lastTouchDownPoint;
     CGPoint _fromLocationMoved;
-
+    
     CGPoint _panRecognizedAtPoint;
     
     BOOL _canHandleDrag;//       возможно попытаемся обработать драг
@@ -71,6 +73,8 @@
     if (_enabled) {
         if (touchDownRecognizer.state == UIGestureRecognizerStateBegan) {
             CGPoint location = [touchDownRecognizer locationInView:_fundamentView];
+            [self setNowPointValueFromLocation:location];
+            
             _lastTouchDownPoint = location;
             _fromLocationMoved = location;
             _isPanRecognizedOnLastRecognizedTouch = NO;
@@ -80,6 +84,10 @@
             } else {
                 _canHandleDrag = NO;
             }
+        } else if (touchDownRecognizer.state == UIGestureRecognizerStateEnded) {
+            self.pointInScreenCoordinatesWhereFingerIsTouchingScreenNow = nil;
+        } else if (touchDownRecognizer.state == UIGestureRecognizerStateCancelled) {
+            self.pointInScreenCoordinatesWhereFingerIsTouchingScreenNow = nil;
         }
     }
 }
@@ -89,9 +97,11 @@
     if (_canHandleDrag) {
         if (panRecognizer.state == UIGestureRecognizerStateBegan) {
             CGPoint location = [panRecognizer locationInView:_fundamentView];
+            [self setNowPointValueFromLocation:location];
+            
             _panRecognizedAtPoint = location;
             _isPanRecognizedOnLastRecognizedTouch = YES;
-
+            
             BOOL movedLeft = _lastTouchDownPoint.x - location.x > 0.0;
             
             CGPoint suitableAxisXPositiveVectorP1 = CGPointMake(0.0, 0.0);
@@ -120,6 +130,8 @@
             if (_enabled && _willHandleDrag) {
                 //TFLog(@"DRAG IN PROGRESS %i",_dragInProgress);
                 CGPoint location = [panRecognizer locationInView:_fundamentView];
+                [self setNowPointValueFromLocation:location];
+                
                 RUN_BLOCK(_dragLocationChangedBlock, location, _fromLocationMoved, _lastTouchDownPoint, _panRecognizedAtPoint);
                 _fromLocationMoved = location;
             }
@@ -129,8 +141,13 @@
                 _dragInProgress = NO;
                 
                 CGPoint location = [panRecognizer locationInView:_fundamentView];
+                
                 RUN_BLOCK(_dragFinishedAtLocationBlock, location, _fromLocationMoved, _lastTouchDownPoint);
+                
+                self.pointInScreenCoordinatesWhereFingerIsTouchingScreenNow = nil;
             }
+        } else if (panRecognizer.state == UIGestureRecognizerStateCancelled ) {
+            self.pointInScreenCoordinatesWhereFingerIsTouchingScreenNow = nil;
         }
     }
 }
@@ -147,6 +164,21 @@
         resultPositiveAngle = 360.0 - ABS(resultPositiveAngle);
     }
     return resultPositiveAngle;
+}
+
+- (BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldReceiveTouch:(UITouch *)touch {
+    if ([gestureRecognizer isKindOfClass:[UILongPressGestureRecognizer class]]) {//     for avoid double call bcs we have 2 recognizers here which will call this delegate
+        RUN_BLOCK(self.didTouchedViewBlock, [touch view]);
+    }
+    return YES;
+}
+
+#pragma mark - Public
+
+- (void)setNowPointValueFromLocation:(CGPoint)location {
+    CGPoint screenCoordinatesPoint = [UIView mag_pointAtScreenCoordinates:location usedAtView:_fundamentView];
+    NSLog(@"NOW POINT LOCATION %@",NSStringFromCGPoint(screenCoordinatesPoint));
+    self.pointInScreenCoordinatesWhereFingerIsTouchingScreenNow = [NSValue valueWithCGPoint:screenCoordinatesPoint];
 }
 
 @end
