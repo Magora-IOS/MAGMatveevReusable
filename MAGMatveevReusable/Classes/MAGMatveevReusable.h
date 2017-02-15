@@ -9,6 +9,14 @@
 #ifndef MAGMatveevReusable_h
 #define MAGMatveevReusable_h
 
+#import "MAGDoubleTapDetector.h"
+#import "MAGDragDetector.h"
+#import "MAGFreeSpaceTouchDetector.h"
+#import "MAGLongTouchDetector.h"
+#import "MAGTapDetector.h"
+#import "MAGCacheCleaner.h"
+#import "MAGFreeNameProvider.h"
+
 #import "MAGCommonDefines.h"
 #import "MAGFrame.h"
 #import "MAGDrawing.h"

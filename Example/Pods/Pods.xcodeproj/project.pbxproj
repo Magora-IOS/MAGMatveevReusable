@@ -67,9 +67,9 @@
 		BB769CEFC824604A221D7C7FB45DA118 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C484EF8499F67EC81CA7E27930A63CDC /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC737ABDEA2F69F59A25BDAD56C552FE /* MAGDragDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B55616F44DE25422FA825A74E950E76 /* MAGDragDetector.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C2F7696449AD6B80CE54A6562522EDE1 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0A25DD6F58D072A4ACFC92D9237BF /* View+MASAdditions.m */; };
-		C71D4CDE1E5460CF00061511 /* MAGCacheCleaner.h in Headers */ = {isa = PBXBuildFile; fileRef = C71D4CDA1E5460CF00061511 /* MAGCacheCleaner.h */; };
+		C71D4CDE1E5460CF00061511 /* MAGCacheCleaner.h in Headers */ = {isa = PBXBuildFile; fileRef = C71D4CDA1E5460CF00061511 /* MAGCacheCleaner.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C71D4CDF1E5460CF00061511 /* MAGCacheCleaner.m in Sources */ = {isa = PBXBuildFile; fileRef = C71D4CDB1E5460CF00061511 /* MAGCacheCleaner.m */; };
-		C71D4CE01E5460CF00061511 /* MAGFreeNameProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = C71D4CDC1E5460CF00061511 /* MAGFreeNameProvider.h */; };
+		C71D4CE01E5460CF00061511 /* MAGFreeNameProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = C71D4CDC1E5460CF00061511 /* MAGFreeNameProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C71D4CE11E5460CF00061511 /* MAGFreeNameProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = C71D4CDD1E5460CF00061511 /* MAGFreeNameProvider.m */; };
 		C7B12C588AF45546C019B0A6D73AEA31 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 61881F60AB333EA86CE7881063A4BA60 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C8DB0EBB4E60ABF943B8A135668944C3 /* NSObject+MAGMore.h in Headers */ = {isa = PBXBuildFile; fileRef = AF4F0FC11EF6741D8EA8FF436D82D04A /* NSObject+MAGMore.h */; settings = {ATTRIBUTES = (Public, ); }; };
